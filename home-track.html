@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+<head>
+   <meta charset="utf-8">
+   <title>MyHomeShifting</title>
+   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+   <link rel="shortcut icon" type="image/png" href="images/logo/ship-logistic-logo-favicon.png">
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="css/fonts.css">
+   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" type="text/css" href="css/animate.css">
+   <link rel="stylesheet" type="text/css" href="css/fancybox.min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="../../../../cdn.jsdelivr.net/npm/bootstrap-icons%401.4.0/font/bootstrap-icons.css">
+</head>
+
+
+<body>
+   <main class="indxMain3">
+      <!--Preloader start-->
+      <div class="logisticLoader" id="preloader">
+         <div id="status">
+            <div class="u-loading">
+               <div class="main-container" id="main-container">
+                  <svg class="u-preloader" viewBox="0 0 176 160" width="176" height="160"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <defs>
+                        <linearGradient id="u-grad-fill" x1="0" y1="0" x2="0" y2="1">
+                           <stop offset="0%" stop-color="hsl(33,90%,55%)" />
+                           <stop offset="30%" stop-color="hsl(33,90%,55%)" />
+                           <stop offset="100%" stop-color="hsl(3,90%,55%)" />
+                        </linearGradient>
+
+                        <style>
+                        
+                           .u-ring {
+                              stroke: hsla(223, 10%, 10%, 0.1);
+                              stroke-width: 16;
+                              fill: none;
+                           }
+
+                           .u-arc1,
+                           .u-arc2,
+                           .u-arc3 {
+                              stroke-width: 16;
+                              fill: none;
+                              stroke-linecap: round;
+                              animation-duration: 4s;
+                              animation-iteration-count: infinite;
+                           }
+
+                           .u-arc1 {
+                              stroke: url(#u-grad-fill);
+                              stroke-dasharray: 43.98 307.87;
+                              animation-name: spin_arc1;
+                           }
+
+                           .u-arc2 {
+                              stroke: hsl(33, 90%, 55%);
+                              stroke-dasharray: 0 40 0 44;
+                              stroke-dashoffset: 0.001;
+                              visibility: hidden;
+                              transform-origin: 32px 88px;
+                              animation-name: spin_arc2;
+                           }
+
+                           .u-arc3 {
+                              stroke: hsl(33, 90%, 55%);
+                              stroke-dasharray: 0 40 0 44;
+                              stroke-dashoffset: 0.001;
+                              visibility: hidden;
+                              transform-origin: 144px 88px;
+                              animation-name: spin_arc3;
+                           }
+
+                           @keyframes spin_arc1 {
+                              0% {
+                                 stroke-dashoffset: 43.98;
+                                 animation-timing-function: ease-out;
+                              }
+
+                              12.5% {
+                                 stroke-dashoffset: -131.95;
+                                 animation-timing-function: ease-in-out;
+                              }
+
+                              25% {
+                                 stroke-dashoffset: 0;
+                                 animation-timing-function: ease-in;
+                              }
+
+                              37.5%,
+                              50% {
+                                 stroke-dashoffset: -175.93;
+                                 animation-timing-function: ease-out;
+                              }
+
+                              62.5% {
+                                 stroke-dashoffset: 0;
+                                 animation-timing-function: ease-in-out;
+                              }
+
+                              75% {
+                                 stroke-dashoffset: -131.95;
+                                 animation-timing-function: ease-in;
+                              }
+
+                              87.5%,
+                              100% {
+                                 stroke-dashoffset: 43.98;
+                              }
+                           }
+
+                           @keyframes spin_arc2 {
+
+                              0%,
+                              35.5% {
+                                 stroke-dasharray: 0 40 0 44;
+                                 visibility: hidden;
+                                 transform: translate(0, 0) rotate(0);
+                                 animation-timing-function: linear;
+                              }
+
+                              37.5% {
+                                 stroke-dasharray: 0 40 44 0;
+                                 visibility: visible;
+                                 transform: translate(0, 0) rotate(0);
+                                 animation-timing-function: ease-out;
+                              }
+
+                              47.5% {
+                                 stroke-dasharray: 0 4 40 40;
+                                 transform: translate(0, -80px) rotate(360deg);
+                                 animation-timing-function: ease-in;
+                              }
+
+                              50% {
+                                 transform: translate(0, -36px) rotate(360deg);
+                                 animation-timing-function: linear;
+                              }
+
+                              52.5%,
+                              100% {
+                                 stroke-dasharray: 0 42 0 42;
+                                 visibility: hidden;
+                                 transform: translate(0, 12px) rotate(360deg);
+                              }
+                           }
+
+                           @keyframes spin_arc3 {
+                              0% {
+                                 stroke-dasharray: 0 4 40 40;
+                                 visibility: visible;
+                                 transform: translate(0, -36px) rotate(0);
+                              }
+
+                              2.5% {
+                                 stroke-dasharray: 0 42 0 42;
+                                 visibility: hidden;
+                                 transform: translate(0, 12px) rotate(0);
+                              }
+
+                              85.5% {
+                                 stroke-dasharray: 0 40 0 44;
+                                 visibility: hidden;
+                                 transform: translate(0, 0) rotate(0);
+                              }
+
+                              87.5% {
+                                 stroke-dasharray: 0 40 44 0;
+                                 visibility: visible;
+                                 transform: translate(0, 0) rotate(0);
+                              }
+
+                              97.5% {
+                                 stroke-dasharray: 0 4 40 40;
+                                 transform: translate(0, -80px) rotate(-360deg);
+                              }
+
+                              100% {
+                                 transform: translate(0, -36px) rotate(-360deg);
+                              }
+                           }
+                           
+                        </style>
+                     </defs>
+
+                     <g stroke-linecap="round">
+                        <circle class="u-ring" r="56" cx="88" cy="96" />
+                        <path class="u-arc1" d="M144,96A56,56,0,0,1,32,96" />
+                        <path class="u-arc2" d="M32,136V96s-.275-25.725,14-40" />
+                        <path class="u-arc3" d="M144,136V96s.275-25.725-14-40" />
+                     </g>
+                  </svg>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--Preloader end-->
+      <!--header start-->
+      <header class="w-100 clearfix logisticTrackHeader" id="logisticTrackHeader">
+         <div class="container">
+            <!-- desktop header start -->
+            <div class="logisticTrackHeaderInner d-none d-lg-flex">
+               <div class="logisticSearch">
+                  <div class="control">
+                     <div class="btn-material"></div>
+                     <svg class="icon-material-search" fill="none" width="23" height="22" viewBox="0 0 23 22">
+                        <path fill="#fff"
+                           d="M22.71 20.432l-6.599-6.322c1.301-1.493 2.084-3.402 2.084-5.487C18.195 3.867 14.117 0 9.102 0S0 3.872 0 8.628s4.077 8.623 9.093 8.623c2.13 0 4.09-.7 5.646-1.868l6.623 6.34c.387.37.962.37 1.348 0 .387-.37.387-.921 0-1.291zM1.933 8.628c0-3.737 3.214-6.773 7.16-6.773 3.945 0 7.16 3.036 7.16 6.773 0 3.736-3.215 6.773-7.16 6.773-3.946 0-7.16-3.042-7.16-6.773z" />
+                     </svg>
+                  </div>
+
+                  <!-- full screen form controls -->
+
+                  <i class='icon-close material-icons'>close</i>
+                  <div class='search-input'>
+                     <div class='search-input-inner'>
+                        <input class='input-search' placeholder='Search' type='text'>
+                     </div>
+                  </div>
+               </div>
+               <div class="logisticMainMenu">
+                  <ul class="nav">
+                     <li class="nav-item dropdown">
+                        <a href="javascript:void(0);" class="nav-link dropdown-toggle"
+                           data-bs-toggle="dropdown">Home</a>
+                        <ul class="dropdown-menu">
+
+                           <li><a class="dropdown-item" href="home-track.html">Home</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a href="javascript:void(0);" class="nav-link dropdown-toggle"
+                           data-bs-toggle="dropdown">Contact</a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                     </li>
+
+                     <li class="nav-item trackHeaderLogo">
+                        <a href="home-cargo.html" class="nav-link">
+                           <img src="images/logo/track-logistic-logo.png" alt="track-logo" class="img-fluid">
+                        </a>
+                     </li>
+
+                     <li class="nav-item dropdown">
+                        <a href="javascript:void(0);" class="nav-link dropdown-toggle"
+                           data-bs-toggle="dropdown">Gallery</a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="gallery-grid-2.html">Gallery 2 Column</a></li>
+
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+
+            </div>
+            <!-- desktop header end -->
+
+            <!-- mobile header start -->
+            <div class="logisticTrackMobHeaderInner d-flex d-lg-none">
+               <div class="logisticTrackMobHeaderLeft">
+                  <a href="javascript:void(0);" class="mobLogo">
+                     <img src="images/logo/track-logistic-logo.png" alt="track-logo" class="img-fluid">
+                  </a>
+               </div>
+               <div class="logisticTrackMobHeaderRight d-flex">
+                  <div class="logisticSearch">
+                     <div class="control">
+                        <div class="btn-material"></div>
+                        <svg class="icon-material-search" fill="none" width="23" height="22" viewBox="0 0 23 22">
+                           <path fill="#fff"
+                              d="M22.71 20.432l-6.599-6.322c1.301-1.493 2.084-3.402 2.084-5.487C18.195 3.867 14.117 0 9.102 0S0 3.872 0 8.628s4.077 8.623 9.093 8.623c2.13 0 4.09-.7 5.646-1.868l6.623 6.34c.387.37.962.37 1.348 0 .387-.37.387-.921 0-1.291zM1.933 8.628c0-3.737 3.214-6.773 7.16-6.773 3.945 0 7.16 3.036 7.16 6.773 0 3.736-3.215 6.773-7.16 6.773-3.946 0-7.16-3.042-7.16-6.773z" />
+                        </svg>
+                     </div>
+
+                     <!-- full screen form controls -->
+
+                     <i class='icon-close material-icons'>close</i>
+                     <div class='search-input'>
+                        <!-- <div class='search-input-inner'>
+                           <input class='input-search' placeholder='Search' type='text'>
+                           <button type="submit" class="btn">Search</button>
+                        </div> -->
+                     </div>
+                  </div>
+                  <div class="logisticTrackLogin">
+                     <a href="javascript:void(0);"> <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                           viewBox="0 0 28 28" fill="none">
+                           <path
+                              d="M13.926 15V16.793C13.926 16.8919 13.9554 16.9886 14.0104 17.0709C14.0654 17.1531 14.1436 17.2172 14.235 17.255C14.3264 17.2928 14.427 17.3026 14.524 17.2832C14.6211 17.2638 14.7101 17.216 14.78 17.146L17.853 14.354C17.8996 14.3076 17.9365 14.2524 17.9617 14.1916C17.9869 14.1309 17.9999 14.0658 17.9999 14C17.9999 13.9342 17.9869 13.8691 17.9617 13.8084C17.9365 13.7476 17.8996 13.6924 17.853 13.646L14.78 10.854C14.7101 10.784 14.6211 10.7362 14.524 10.7168C14.427 10.6974 14.3264 10.7072 14.235 10.745C14.1436 10.7828 14.0654 10.8469 14.0104 10.9291C13.9554 11.0114 13.926 11.1081 13.926 11.207V13H1C0.734784 13 0.48043 13.1054 0.292893 13.2929C0.105357 13.4804 0 13.7348 0 14C0 14.2652 0.105357 14.5196 0.292893 14.7071C0.48043 14.8946 0.734784 15 1 15H13.926ZM25 28H11C10.2044 28 9.44129 27.6839 8.87868 27.1213C8.31607 26.5587 8 25.7956 8 25V18.939C8 18.6738 8.10536 18.4194 8.29289 18.2319C8.48043 18.0444 8.73478 17.939 9 17.939C9.26522 17.939 9.51957 18.0444 9.70711 18.2319C9.89464 18.4194 10 18.6738 10 18.939V25C10 25.2652 10.1054 25.5196 10.2929 25.7071C10.4804 25.8946 10.7348 26 11 26H25C25.2652 26 25.5196 25.8946 25.7071 25.7071C25.8946 25.5196 26 25.2652 26 25V3C26 2.73478 25.8946 2.48043 25.7071 2.29289C25.5196 2.10536 25.2652 2 25 2H11C10.7348 2 10.4804 2.10536 10.2929 2.29289C10.1054 2.48043 10 2.73478 10 3V9.06C10 9.32522 9.89464 9.57957 9.70711 9.76711C9.51957 9.95464 9.26522 10.06 9 10.06C8.73478 10.06 8.48043 9.95464 8.29289 9.76711C8.10536 9.57957 8 9.32522 8 9.06V3C8 2.20435 8.31607 1.44129 8.87868 0.87868C9.44129 0.316071 10.2044 0 11 0H25C25.7956 0 26.5587 0.316071 27.1213 0.87868C27.6839 1.44129 28 2.20435 28 3V25C28 25.7956 27.6839 26.5587 27.1213 27.1213C26.5587 27.6839 25.7956 28 25 28Z"
+                              fill="#111111" />
+                        </svg></a>
+                  </div>
+                  <div class="logisticMenuToggle d-block d-lg-none">
+                     <a href="javascript:void(0);" class="menu-toggle">
+                        <svg fill="none" width="31" height="30" viewBox="0 0 31 30">
+                           <path fill="#111111" fill-rule="evenodd"
+                              d="M26.35 16.238H21.7c-2.568 0-4.65 1.983-4.65 4.429v4.428c0 2.446 2.082 4.429 4.65 4.429h4.65c2.568 0 4.65-1.983 4.65-4.429v-4.428c0-2.446-2.082-4.429-4.65-4.429zm-17.05 0H4.65c-2.568 0-4.65 1.983-4.65 4.429v4.428c0 2.446 2.082 4.429 4.65 4.429H9.3c2.568 0 4.65-1.983 4.65-4.429v-4.428c0-2.446-2.082-4.429-4.65-4.429zM26.35 0H21.7c-2.568 0-4.65 1.983-4.65 4.429v4.428c0 2.446 2.082 4.429 4.65 4.429h4.65c2.568 0 4.65-1.983 4.65-4.429V4.43C31 1.983 28.918 0 26.35 0zm-12.4 4.429v4.428c0 2.446-2.082 4.429-4.65 4.429H4.65C2.082 13.286 0 11.303 0 8.857V4.43C0 1.983 2.082 0 4.65 0H9.3c2.568 0 4.65 1.983 4.65 4.429z"
+                              clip-rule="evenodd" />
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <!-- mobile header end -->
+         </div>
+      </header>
+      <!--header end-->
+
+      <!--menu start-->
+      <div class="logisticResponsiveMobMenu">
+         <nav class="logisticFullScreenOverlayMenu sidebar card">
+            <a href="javascript:void(0);" class="menu-toggle">
+               <svg fill="none" width="31" height="30" viewBox="0 0 31 30">
+                  <path fill="#fff" fill-rule="evenodd"
+                     d="M26.35 16.238H21.7c-2.568 0-4.65 1.983-4.65 4.429v4.428c0 2.446 2.082 4.429 4.65 4.429h4.65c2.568 0 4.65-1.983 4.65-4.429v-4.428c0-2.446-2.082-4.429-4.65-4.429zm-17.05 0H4.65c-2.568 0-4.65 1.983-4.65 4.429v4.428c0 2.446 2.082 4.429 4.65 4.429H9.3c2.568 0 4.65-1.983 4.65-4.429v-4.428c0-2.446-2.082-4.429-4.65-4.429zM26.35 0H21.7c-2.568 0-4.65 1.983-4.65 4.429v4.428c0 2.446 2.082 4.429 4.65 4.429h4.65c2.568 0 4.65-1.983 4.65-4.429V4.43C31 1.983 28.918 0 26.35 0zm-12.4 4.429v4.428c0 2.446-2.082 4.429-4.65 4.429H4.65C2.082 13.286 0 11.303 0 8.857V4.43C0 1.983 2.082 0 4.65 0H9.3c2.568 0 4.65 1.983 4.65 4.429z"
+                     clip-rule="evenodd" />
+               </svg>
+            </a>
+
+            <ul class="menu nav flex-column" id="nav_accordion">
+               <li class="menuDropdown nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item1"
+                     href="javascript:void(0);">Home <i class="bi small bi-caret-down-fill"></i> </a>
+                  <ul id="menu_item1" class="submenu collapse" data-bs-parent="#nav_accordion">
+                     <!-- <li><a class="nav-link" href="home-cargo.html">Home - Cargo</a></li>
+                     <li><a class="nav-link" href="home-ship.html">Home - Ship</a></li> -->
+                     <li><a class="nav-link" href="home-track.html">Home Page</a></li>
+
+                  </ul>
+               </li>
+               <li class="menuDropdown nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item5" href="javascript:void(0);">
+                     Contact Us <i class="bi small bi-caret-down-fill"></i>
+                  </a>
+                  <ul id="menu_item5" class="submenu collapse" data-bs-parent="#nav_accordion">
+                     <li><a class="nav-link" href="contact.html">Contact Page</a></li>
+                  </ul>
+               </li>
+               <!-- <li class="menuDropdown nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item2" href="javascript:void(0);">
+                     Services <i class="bi small bi-caret-down-fill"></i>
+                  </a>
+                  <ul id="menu_item2" class="submenu collapse" data-bs-parent="#nav_accordion">
+                     <li><a class="nav-link" href="services.html">Services</a></li>
+                     <li><a class="nav-link" href="services-single.html">Services Single</a></li>
+                  </ul>
+               </li> -->
+               <!-- <li class="menuDropdown nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item4" href="javascript:void(0);">
+                     Blog <i class="bi small bi-caret-down-fill"></i>
+                  </a>
+                  <ul id="menu_item4" class="submenu collapse" data-bs-parent="#nav_accordion">
+                     <li><a class="nav-link" href="blog.html">Blog</a></li>
+                     <li><a class="nav-link" href="blog-single-2.html">Blog Single</a></li>
+                     <li><a class="nav-link" href="blog-with-sidebar.html">Blog With Sidebar</a></li>
+                     <li><a class="nav-link" href="blog-without-sidebar.html">Blog Without Sidebar</a></li>
+                  </ul>
+               </li> -->
+               <li class="menuDropdown nav-item">
+                  <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#menu_item6" href="javascript:void(0);">
+                     Gallery <i class="bi small bi-caret-down-fill"></i>
+                  </a>
+                  <ul id="menu_item6" class="submenu collapse" data-bs-parent="#nav_accordion">
+                     <li><a class="nav-link" href="gallery-grid-2.html">See our service</a></li>
+                     <!-- <li><a class="nav-link" href="gallery-grid-3.html">Gallery 3 Column</a></li> -->
+                     <!-- <li><a class="nav-link" href="gallery-grid-4.html">Gallery 4 Column</a></li> -->
+                  </ul>
+               </li>
+            </ul>
+         </nav>
+      </div>
+      <!--menu end-->
+
+      <!--banner start-->
+      <section class="w-100 clearfix logisticTrackBanner" id="logisticTrackBanner">
+         <div class="container">
+            <div class="logisticTrackBannerInner">
+               <div class="logisticTrackBannerContent">
+                  <h1>Sunil</h1>
+                  <img src="images/home-truck/img1.png" alt="img" class="img-fluid">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--banner end-->
+
+      <!--Trusted by 50+ Users start-->
+      <section class="w-100 clearfix logisticTrustedUsers" id="logisticTrustedUsers">
+         <div class="container">
+            <div class="logisticTrustedUsersInner">
+               <span>Trusted by 100's Users</span>
+               <h2 class="d-none">Trusted by 100's Users</h2>
+
+            </div>
+         </div>
+      </section>
+      <!--Trusted by 50+ Users end-->
+
+      <!--Track Packet start-->
+      <section class="w-100 clearfix logisticTracPacket" id="logisticTracPacket">
+         <div class="container">
+            <div class="logisticTracPacketInner">
+               <div class="logisticTracPacketRow">
+                  <div class="logisticTrackPacketCol logisticTrackPacketCol1">
+                     <h2>Contact Us</h2>
+                     <p>We provide reliable packing, moving, loading, unloading, and transportation.</p>
+                     <div class="logisticTrackPackerForm">
+                        <form>
+                           <div class="input-group">
+                              <a href="contact-us.html" class="form-control"
+                                 style="display: block; padding: 10px 20px; background-color: #ffffff; color: rgb(0, 0, 0); text-align: center; text-decoration: none; border-radius: 5px;">
+                                 Contact Us
+                              </a>
+                           </div>
+
+                           <br>
+                           <div class="input-group">
+                              <a href="https://wa.me/917396004627" class="form-control"
+                                 style="display: block; padding: 10px 20px; background-color: #ffffff; color: rgb(0, 0, 0); text-align: center; text-decoration: none; border-radius: 5px;">
+                                 Whatsapp Us
+                              </a>
+                           </div>
+
+                           <br>
+                           <div class="input-group">
+                              <a href="tel:+919876543210" class="form-control"
+                                 style="display: block; padding: 10px 20px; background-color: #ffffff; color: rgb(0, 0, 0); text-align: center; text-decoration: none; border-radius: 5px;">
+                                 Call Us
+                              </a>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="logisticTrackPacketCol logisticTrackPacketCol2">
+                     <div class="logisticTrackPacket">
+                        <img src="images/home-truck/img2.png" alt="img2" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Track Packet end-->
+
+      <!--More Than Features start-->
+      <section class="w-100 clearfix logisticMoreThanFeatures" id="logisticMoreThanFeatures">
+         <div class="container">
+            <div class="logisticMoreThanFeaturesInner">
+               <div class="logisticMoreFeaturesHead">
+                  <h2>More Than Features</h2>
+               </div>
+               <div class="logisticMoreFeaturesBox">
+                  <div class="row">
+                     <div class="col-md-12 col-lg-7">
+                        <div class="logisticFeaturesInnerRow">
+                           <div class="row">
+                              <div class="col-md-5">
+                                 <div class="logisticFeaturesBoxGroup">
+                                    <div class="logisticFeaturesBox">
+                                       <span>
+                                          <img src="images/home-truck/fa-send-o.png" alt="send" class="img-fluid">
+                                       </span>
+                                       <h4>Best Courier Service</h4>
+                                       <p>We are here for you. Our dedicated team is committed to providing excellent
+                                          support.</p>
+                                    </div>
+                                    <div class="logisticFeaturesBox">
+                                       <span>
+                                          <img src="images/home-truck/fa-file-code-o.png" alt="file" class="img-fluid">
+                                       </span>
+                                       <h4>24/7 Customer Support</h4>
+                                       <p>Have a question or issue? Our friendly support team is available around the
+                                          clock to assist you whenever you need us.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-7">
+                                 <div class="logisticFeaturesBoxGroup">
+                                    <div class="logisticFeaturesBox">
+                                       <span>
+                                          <img src="images/home-truck/fa-support.png" alt="support" class="img-fluid">
+                                       </span>
+                                       <h4>On-Time Delivery</h4>
+                                       <p>Time matters. Our team is committed to punctual pickups and timely deliveries,
+                                          ensuring your schedule is never disrupted.</p>
+                                    </div>
+                                    <div class="logisticFeaturesBodrBox">
+                                       <p class="mb-0">At MyHome Packers and Movers, we make shifting easy, efficient,
+                                          and stress-free. Whether you're relocating your home, office, or vehicle, our
+                                          expert team is here to ensure your move is smooth from start to finish.
+
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-lg-5">
+                        <div class="logisticFeaturesImg">
+                           <img src="images/home-truck/img3.png" alt="img3" class="img-fluid">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--More Than Features end-->
+
+      <!--Our Agent start-->
+      <section class="w-100 clearfix logisticOurAgent" id="logisticOurAgent">
+         <div class="container">
+            <div class="logisticOurAgentInner">
+               <div class="logisticOurAgentHead">
+                  <h2>Our Branches</h2>
+                  <p>We proudly serve customers across all regions of India, delivering reliable solutions with speed, quality, and dedication.</p>
+               </div>
+               <div class="logisticOurAgentRow">
+                  <div class="row">
+                     <div class="col-md-6 col-xl-3">
+                        <div class="logisticOurAgentCard">
+                           <div class="logisticOurAgentCardHead">
+                              <div class="logisticOurAgentName">
+                                 <h5><a href="javascript:void(0);">Hyderabad</a></h5>
+                                 <span>Executive manager Sunil</span>
+                              </div>
+                              <div class="logisticOurAgentProf">
+                                 <a href="https://www.google.com/maps?q=17.4819202,78.477991&z=17&hl=en">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="logisticOurAgentSocial">
+                              <ul>
+                                 <li>
+                                    <a href="https://www.google.com/maps?q=17.4819202,78.477991&z=17&hl=en">
+                                       <img src="images/home-truck/icon3.png" height="25" width="25" alt="twitter" class="img-fluid">
+                                    </a>
+                                 </li>
+                                 </ul>
+                           </div>
+                           <div class="logisticOurAgentPara">
+                              
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-xl-3">
+                        <div class="logisticOurAgentCard">
+                           <div class="logisticOurAgentCardHead">
+                              <div class="logisticOurAgentName">
+                                 <h5><a href="https://www.google.com/maps/place/World+Cargo+Packers+And+Movers+Bangalore/@13.0224371,77.535472,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3dd23f5f9d2b:0xbbc401d615a96827!8m2!3d13.0224371!4d77.535472!16s%2Fg%2F11wj7qy0zk?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">Bangalore</a></h5>
+                                 <span>Executive Manager Sunil</span>
+                              </div>
+                              <div class="logisticOurAgentProf">
+                                 <a href="https://www.google.com/maps/place/World+Cargo+Packers+And+Movers+Bangalore/@13.0224371,77.535472,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3dd23f5f9d2b:0xbbc401d615a96827!8m2!3d13.0224371!4d77.535472!16s%2Fg%2F11wj7qy0zk?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="logisticOurAgentSocial">
+                              <ul>
+                                 <li>
+                                    <a href="javascript:void(0);">
+                                       <img src="images/home-truck/icon3.png" height="25" width="25" alt="twitter" class="img-fluid">
+                                    </a>
+                                 </li>
+                                 </ul>
+                           </div>
+                           <div class="logisticOurAgentPara">
+   
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-xl-3">
+                        <div class="logisticOurAgentCard">
+                           <div class="logisticOurAgentCardHead">
+                              <div class="logisticOurAgentName">
+                                 <h5><a href="https://www.google.com/maps/place/World+Trade+Center+Chennai/@12.961793,80.2447247,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525d67c256386d:0xb3f56b3c34805aac!8m2!3d12.961793!4d80.2447247!16s%2Fg%2F11cpj10r3j?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">Chennai</a></h5>
+                                 <span>Executive Manager Sunil</span>
+                              </div>
+                              <div class="logisticOurAgentProf">
+                                 <a href="https://www.google.com/maps/place/World+Trade+Center+Chennai/@12.961793,80.2447247,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525d67c256386d:0xb3f56b3c34805aac!8m2!3d12.961793!4d80.2447247!16s%2Fg%2F11cpj10r3j?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="logisticOurAgentSocial">
+                              <ul>
+                                 <li>
+                                    <a href="https://www.google.com/maps/place/World+Trade+Center+Chennai/@12.961793,80.2447247,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525d67c256386d:0xb3f56b3c34805aac!8m2!3d12.961793!4d80.2447247!16s%2Fg%2F11cpj10r3j?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">
+                                       <img src="images/home-truck/icon3.png" height="25" width="25" alt="twitter" class="img-fluid">
+                                    </a>
+                                 </li>
+                                 </ul>
+                           </div>
+                           <div class="logisticOurAgentPara">
+                              
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-6 col-xl-3">
+                        <div class="logisticOurAgentCard">
+                           <div class="logisticOurAgentCardHead">
+                              <div class="logisticOurAgentName">
+                                 <h5><a href="home-track.html">Andhra Pradesh</a></h5>
+                                 <span>Executive Manager Sunil</span>
+                              </div>
+                              <div class="logisticOurAgentProf">
+                                 <a href="home-track.html">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="logisticOurAgentSocial">
+                              <ul>
+                                 <li>
+                                    <a href="home-track.html">
+                                       <img src="images/home-truck/icon3.png" height="25" width="25" alt="twitter" class="img-fluid">
+                                    </a>
+                                 </li>
+                                 </ul>
+                           </div>
+                           <div class="logisticOurAgentPara">
+                     <!-- here i can write p tag  -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Our Agent end-->
+
+      <!--About start-->
+      <section class="w-100 clearfix logisticTruckAbout" id="logisticTruckAbout">
+         <div class="container">
+            <div class="logisticTruckAboutInner">
+               <div class="logisticTruckAboutRow logisticTruckAboutRow1">
+                  <div class="row">
+                     <div class="col-md-12 col-lg-7 order-2 order-lg-1">
+                        <div class="logisticTruckAboutImg logisticTruckAboutImg1">
+                           <img src="images/home-truck/img5.png" alt="img5" class="img-fluid">
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-lg-5 order-1 order-lg-2">
+                        <div class="logisticTruckAboutTxt logisticTruckAboutTxt1">
+                           <h2>About Us</h2>
+                           <h4>My Home Shifting Packers and Movers</h4>
+                           <p>I'm Sunil, the Executive Manager of MyHomeShifting. With over 10 years of experience in the packing and moving industry, my team of 40+ professionals and I accept over a 1000+ packaging and moving jobs annually, supported by our fleet of 10+ vehicles. </p>
+                           <a href="contact-us.html" class="btn">Know about Us more</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="logisticTruckAboutRow logisticTruckAboutRow2">
+                  <div class="row">
+                     <div class="col-md-12 col-lg-5">
+                        <div class="logisticTruckAboutTxt logisticTruckAboutTxt2">
+                           <p>We combine affordability with quality, ensuring that our clients receive the best value for their money. Whether you’re moving across the street or across the country, our goal remains the same: to deliver a stress-free, reliable, and satisfying relocation experience that earns your trust and exceeds you.</p>
+
+                           <p>At MyHomeShifting, we are more than just a Packers and Movers company - we are the architects of
+                              seamless supply chains.</p>
+                           <a href="contact-us.html" class="btn">Learn More about MyHomeShifting</a>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-lg-7">
+                        <div class="logisticTruckAboutImg logisticTruckAboutImg2">
+                           <img src="images/home-truck/img6.png" alt="img6" class="img-fluid">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--About end-->
+
+      <!--Pricing Plans start-->
+      <!-- <section class="w-100 clearfix logisticPricingPlans" id="logisticPricingPlans">
+         <div class="logisticPricingPlansMask">
+            <h2>TRANSPORTATION</h2>
+         </div>
+         <div class="container">
+            <div class="logisticPricingPlansInner">
+               <h2>Pricing Plans</h2>
+               <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. he leap
+                  into electronic typesetting.</p>
+            </div>
+            <div class="logisticPriceTbl">
+               <div class="logisticPriceTblInner">
+                  <div class="logisticPriceTblCard">
+                     <div class="logisticPriceTblHead">
+                        <h5>Starter</h5>
+                        <p>Perfect for Freelancers</p>
+                        <h2><sup>$</sup>299</h2>
+                        <a href="javascript:void(0);" class="btn">Get Started</a>
+                     </div>
+                     <div class="logisticPriceTblList">
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited Projects</p>
+                        </div>
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited Users</p>
+                        </div>
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">100 Trucks of Space</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="logisticPriceTblCard">
+                     <div class="logisticPriceTblHead">
+                        <h5>Starter</h5>
+                        <p>Perfect for Freelancers</p>
+                        <h2><sup>$</sup> 499</h2>
+                        <a href="javascript:void(0);" class="btn">Get Started</a>
+                     </div>
+                     <div class="logisticPriceTblList">
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited Projects</p>
+                        </div>
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited Users</p>
+                        </div>
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited Dates</p>
+                        </div>
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited File Recovery</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="logisticPriceTblCard">
+                     <div class="logisticPriceTblHead">
+                        <h5>Starter</h5>
+                        <p>Perfect for Freelancers</p>
+                        <h2><sup>$</sup>899</h2>
+                        <a href="javascript:void(0);" class="btn">Get Started</a>
+                     </div>
+                     <div class="logisticPriceTblList">
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited Projects</p>
+                        </div>
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited Users</p>
+                        </div>
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited Dates</p>
+                        </div>
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">100 Trucks of Space</p>
+                        </div>
+                        <div class="logisticPriceTblItem">
+                           <p class="mb-0">Unlimited File Recovery</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <!--Pricing Plans end-->
+      <!-- Shipping Easy steps start-->
+      <section class="w-100 clearfix logisticShippingEasySteps" id="logisticShippingEasySteps">
+         <div class="container">
+            <div class="logisticShippingEasyStepsInner">
+               <div class="row">
+                  <div class="col-md-12 col-xl-5 col-xxl-6">
+                     <div class="logisticShippingEasyHead">
+                        <h2> Shipping Easy steps</h2>
+                     </div>
+                     <div class="logisticShippingSteps">
+                        <div class="trackingShipping" id="trackingShipping">
+                           <div class="tracking-list">
+                              <div class="tracking-item status-intransit">
+                                 <div class="tracking-icon">
+                                    <span>1</span>
+                                 </div>
+                                 <div class="tracking-content">
+                                    <h5>Book Your Move</h5>
+                                    <p>Get started by booking your move through our website or phone. Choose your preferred date, time, and service type effortlessly.</p>
+                                 </div>
+                              </div>
+                              <div class="tracking-item">
+                                 <div class="tracking-icon">
+                                    <span>2</span>
+                                 </div>
+                                 <div class="tracking-content">
+                                    <h5>We Pack & Pick Up</h5>
+                                    <p>Our trained professionals arrive on schedule with quality materials, pack your items carefully, and load them securely into our transport vehicle.</p>
+                                    <div class="trackingContentImg">
+                                       <div class="trackingImg">
+                                          <img src="images/home-truck/img9.png" alt="img9" class="img-fluid">
+                                       </div>
+                                       <div class="trackingContent">
+                                          <h6>Safe Delivery</h6>
+                                          <p>We use bubble wrap and cushioning to ensure your items are safe during transit, then securely load them into our transport vehicle.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="tracking-item">
+                                 <div class="tracking-icon">
+                                    <span>3</span>
+                                 </div>
+                                 <div class="tracking-content">
+                                    <h5>Safe Delivery</h5>
+                                    <p>We ensure timely and damage-free delivery of your belongings to your new location, with optional unpacking and placement services available.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="trackingMoreShippingDetail">
+                           <a href="javascript:void(0);" class="btn">View All</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-12 col-xl-7 col-xxl-6">
+                     <div class="logisticShippingStepsImg">
+                        <img src="images/home-truck/img7.png" alt="img5" class="img-fluid">
+                        <img src="images/home-truck/img8.png" alt="img5" class="img-fluid">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Shipping Easy steps end-->
+
+      <!-- Gallery start-->
+      <section class="w-100 clearfix logisticTruckGallery" id="logisticTruckGallery">
+         <div class="container">
+            <div class="logisticTruckGalleryInner">
+               <div class="logisticTruckGalleryHead">
+                  <h2>Gallery</h2>
+                  <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. he
+                     leap into electronic typesetting.</p>
+               </div>
+               <div class="logisticTruckGalleryGroup">
+                  <div class="logisticTruckGalleryItemRow">
+                     <div class="logisticTruckGalleryItem">
+                        <a href="images/home-truck/gallery1.png" class="galleryLink" data-fancybox="images"
+                           data-caption="">
+                           <div class="promo image">
+                              <img src="images/home-truck/gallery1.png" alt="galleryImg" class="img-fluid">
+                              <div class="caption">
+                                 <div class="plusIcon"><img src="images/icons/plus-icon.png" alt="plus-img"
+                                       class="img-fluid"></div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="logisticTruckGalleryItem">
+                        <a href="images/home-truck/gallery2.png" class="galleryLink" data-fancybox="images"
+                           data-caption="">
+                           <div class="promo image">
+                              <img src="images/home-truck/gallery2.png" alt="galleryImg" class="img-fluid">
+                              <div class="caption">
+                                 <div class="plusIcon"><img src="images/icons/plus-icon.png" alt="plus-img"
+                                       class="img-fluid"></div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="logisticTruckGalleryItem">
+                        <a href="images/home-truck/gallery3.png" class="galleryLink" data-fancybox="images"
+                           data-caption="">
+                           <div class="promo image">
+                              <img src="images/home-truck/gallery3.png" alt="galleryImg" class="img-fluid">
+                              <div class="caption">
+                                 <div class="plusIcon"><img src="images/icons/plus-icon.png" alt="plus-img"
+                                       class="img-fluid"></div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="logisticTruckGalleryItemRow">
+                     <div class="logisticTruckGalleryItem">
+                        <a href="images/home-truck/gallery4.png" class="galleryLink" data-fancybox="images"
+                           data-caption="">
+                           <div class="promo image">
+                              <img src="images/home-truck/gallery4.png" alt="galleryImg" class="img-fluid">
+                              <div class="caption">
+                                 <div class="plusIcon"><img src="images/icons/plus-icon.png" alt="plus-img"
+                                       class="img-fluid"></div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="logisticTruckGalleryItem">
+                        <a href="images/home-truck/gallery5.png" class="galleryLink" data-fancybox="images"
+                           data-caption="">
+                           <div class="promo image">
+                              <img src="images/home-truck/gallery5.png" alt="galleryImg" class="img-fluid">
+                              <div class="caption">
+                                 <div class="plusIcon"><img src="images/icons/plus-icon.png" alt="plus-img"
+                                       class="img-fluid"></div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </br>
+      <!-- Gallery end-->
+
+      <!-- Our Blog start-->
+      <!-- <section class="w-100 clearfix logisticTruckOurBlog" id="logisticTruckOurBlog">
+         <div class="container">
+            <div class="logisticTruckOurBlogInner">
+               <div class="logisticTruckOurBlogHead">
+                  <h2>Our Blog</h2>
+                  <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. he
+                     leap into electronic typesetting.</p>
+               </div>
+               <div class="logisticTruckOurBlogCardGroup">
+                  <div class="row">
+                     <div class="col-md-12 col-lg-4">
+                        <div class="logisticTruckOurBlogCardItem">
+                           <div class="logisticTruckOurBlogCardImg">
+                              <a href="blog-single-2.html">
+                                 <img src="images/home-truck/img10.png" alt="img" class="img-fluid">
+                              </a>
+                              <div class="logisticCalner">
+                                 <img src="images/home-truck/date.png" alt="img" class="img-fluid">
+                                 <p class="mb-0">02 Aug</p>
+                              </div>
+                           </div>
+                           <div class="logisticTruckOurBlogCardTxt">
+                              <div class="logisticTruckOurBlogInnerLst">
+                                 <div class="logisticTruckOurBlogInnerLstItem">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                       fill="none">
+                                       <path
+                                          d="M9 0C10.1935 0 11.3381 0.474106 12.182 1.31802C13.0259 2.16193 13.5 3.30653 13.5 4.5C13.5 5.69347 13.0259 6.83807 12.182 7.68198C11.3381 8.52589 10.1935 9 9 9C7.80653 9 6.66193 8.52589 5.81802 7.68198C4.97411 6.83807 4.5 5.69347 4.5 4.5C4.5 3.30653 4.97411 2.16193 5.81802 1.31802C6.66193 0.474106 7.80653 0 9 0ZM9 11.25C13.9725 11.25 18 13.2638 18 15.75V18H0V15.75C0 13.2638 4.0275 11.25 9 11.25Z"
+                                          fill="white" />
+                                    </svg>
+                                    <span>by admin</span>
+                                 </div>
+                                 <div class="logisticTruckOurBlogInnerLstItem">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                       fill="none">
+                                       <path
+                                          d="M6.3 18C6.06131 18 5.83239 17.9052 5.6636 17.7364C5.49482 17.5676 5.4 17.3387 5.4 17.1V14.4H1.8C1.32261 14.4 0.864773 14.2104 0.527208 13.8728C0.189642 13.5352 0 13.0774 0 12.6V1.8C0 1.32261 0.189642 0.864773 0.527208 0.527208C0.864773 0.189642 1.32261 0 1.8 0H16.2C16.6774 0 17.1352 0.189642 17.4728 0.527208C17.8104 0.864773 18 1.32261 18 1.8V12.6C18 13.0774 17.8104 13.5352 17.4728 13.8728C17.1352 14.2104 16.6774 14.4 16.2 14.4H10.71L7.38 17.739C7.2 17.91 6.975 18 6.75 18H6.3ZM13.5 8.1V6.3H11.7V8.1H13.5ZM9.9 8.1V6.3H8.1V8.1H9.9ZM6.3 8.1V6.3H4.5V8.1H6.3Z"
+                                          fill="white" />
+                                    </svg>
+                                    <span>2 comments</span>
+                                 </div>
+                              </div>
+                              <p><a href="blog-single-2.html">Our inspired solutions have helped shape modern acoustic
+                                    design.</a></p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-lg-4">
+                        <div class="logisticTruckOurBlogCardItem">
+                           <div class="logisticTruckOurBlogCardImg">
+                              <a href="blog-single-2.html">
+                                 <img src="images/home-truck/img10.png" alt="img" class="img-fluid">
+                              </a>
+                              <div class="logisticCalner">
+                                 <img src="images/home-truck/date.png" alt="img" class="img-fluid">
+                                 <p class="mb-0">02 Aug</p>
+                              </div>
+                           </div>
+                           <div class="logisticTruckOurBlogCardTxt">
+                              <div class="logisticTruckOurBlogInnerLst">
+                                 <div class="logisticTruckOurBlogInnerLstItem">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                       fill="none">
+                                       <path
+                                          d="M9 0C10.1935 0 11.3381 0.474106 12.182 1.31802C13.0259 2.16193 13.5 3.30653 13.5 4.5C13.5 5.69347 13.0259 6.83807 12.182 7.68198C11.3381 8.52589 10.1935 9 9 9C7.80653 9 6.66193 8.52589 5.81802 7.68198C4.97411 6.83807 4.5 5.69347 4.5 4.5C4.5 3.30653 4.97411 2.16193 5.81802 1.31802C6.66193 0.474106 7.80653 0 9 0ZM9 11.25C13.9725 11.25 18 13.2638 18 15.75V18H0V15.75C0 13.2638 4.0275 11.25 9 11.25Z"
+                                          fill="white" />
+                                    </svg>
+                                    <span>by admin</span>
+                                 </div>
+                                 <div class="logisticTruckOurBlogInnerLstItem">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                       fill="none">
+                                       <path
+                                          d="M6.3 18C6.06131 18 5.83239 17.9052 5.6636 17.7364C5.49482 17.5676 5.4 17.3387 5.4 17.1V14.4H1.8C1.32261 14.4 0.864773 14.2104 0.527208 13.8728C0.189642 13.5352 0 13.0774 0 12.6V1.8C0 1.32261 0.189642 0.864773 0.527208 0.527208C0.864773 0.189642 1.32261 0 1.8 0H16.2C16.6774 0 17.1352 0.189642 17.4728 0.527208C17.8104 0.864773 18 1.32261 18 1.8V12.6C18 13.0774 17.8104 13.5352 17.4728 13.8728C17.1352 14.2104 16.6774 14.4 16.2 14.4H10.71L7.38 17.739C7.2 17.91 6.975 18 6.75 18H6.3ZM13.5 8.1V6.3H11.7V8.1H13.5ZM9.9 8.1V6.3H8.1V8.1H9.9ZM6.3 8.1V6.3H4.5V8.1H6.3Z"
+                                          fill="white" />
+                                    </svg>
+                                    <span>2 comments</span>
+                                 </div>
+                              </div>
+                              <p><a href="blog-single-2.html">Solutions have helped shape modern acoustic design our
+                                    inspired.</a></p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-lg-4">
+                        <div class="logisticTruckOurBlogCardItem">
+                           <div class="logisticTruckOurBlogCardImg">
+                              <a href="blog-single-2.html">
+                                 <img src="images/home-truck/img10.png" alt="img" class="img-fluid">
+                              </a>
+                              <div class="logisticCalner">
+                                 <img src="images/home-truck/date.png" alt="img" class="img-fluid">
+                                 <p class="mb-0">02 Aug</p>
+                              </div>
+                           </div>
+                           <div class="logisticTruckOurBlogCardTxt">
+                              <div class="logisticTruckOurBlogInnerLst">
+                                 <div class="logisticTruckOurBlogInnerLstItem">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                       fill="none">
+                                       <path
+                                          d="M9 0C10.1935 0 11.3381 0.474106 12.182 1.31802C13.0259 2.16193 13.5 3.30653 13.5 4.5C13.5 5.69347 13.0259 6.83807 12.182 7.68198C11.3381 8.52589 10.1935 9 9 9C7.80653 9 6.66193 8.52589 5.81802 7.68198C4.97411 6.83807 4.5 5.69347 4.5 4.5C4.5 3.30653 4.97411 2.16193 5.81802 1.31802C6.66193 0.474106 7.80653 0 9 0ZM9 11.25C13.9725 11.25 18 13.2638 18 15.75V18H0V15.75C0 13.2638 4.0275 11.25 9 11.25Z"
+                                          fill="white" />
+                                    </svg>
+                                    <span>by admin</span>
+                                 </div>
+                                 <div class="logisticTruckOurBlogInnerLstItem">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                       fill="none">
+                                       <path
+                                          d="M6.3 18C6.06131 18 5.83239 17.9052 5.6636 17.7364C5.49482 17.5676 5.4 17.3387 5.4 17.1V14.4H1.8C1.32261 14.4 0.864773 14.2104 0.527208 13.8728C0.189642 13.5352 0 13.0774 0 12.6V1.8C0 1.32261 0.189642 0.864773 0.527208 0.527208C0.864773 0.189642 1.32261 0 1.8 0H16.2C16.6774 0 17.1352 0.189642 17.4728 0.527208C17.8104 0.864773 18 1.32261 18 1.8V12.6C18 13.0774 17.8104 13.5352 17.4728 13.8728C17.1352 14.2104 16.6774 14.4 16.2 14.4H10.71L7.38 17.739C7.2 17.91 6.975 18 6.75 18H6.3ZM13.5 8.1V6.3H11.7V8.1H13.5ZM9.9 8.1V6.3H8.1V8.1H9.9ZM6.3 8.1V6.3H4.5V8.1H6.3Z"
+                                          fill="white" />
+                                    </svg>
+                                    <span>2 comments</span>
+                                 </div>
+                              </div>
+                              <p><a href="blog-single-2.html">helped shape modern our inspired solutions have acoustic
+                                    design.</a></p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> -->
+      <!-- Our Blog End-->
+
+      <!--Let's Join with Us Start-->
+      <section class="w-100 clearfix logisticTruckOurNewsletter" id="logisticTruckOurNewsletter">
+         <div class="container">
+            <div class="logisticTruckOurNewsletterInner">
+               <div class="logisticTruckOurNewsletterRow">
+                  <div class="logisticTruckOurNewsletterCol logisticTruckOurNewsletterCol1">
+                     <div class="logisticTruckOurNewsletterHead">
+                        <h2>Book Your Home Shifting</h2>
+                        <p>Schedule your move today and relax—we handle everything professionally.</p>
+                     </div>
+                  </div>
+                  <div class="logisticTruckOurNewsletterCol logisticTruckOurNewsletterCol2">
+                     <div class="logisticTruckOurNewsletterBtn">
+                        <form>
+                           <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Your Email">
+                              <button type="submit" class="btn">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <path
+                                       d="M18 3V15C18 16.65 16.65 18 15 18H9C7.35 18 6 16.65 6 15V12.75C6 12.3 6.3 12 6.75 12C7.2 12 7.5 12.3 7.5 12.75V15C7.5 15.825 8.175 16.5 9 16.5H15C15.825 16.5 16.5 15.825 16.5 15V3C16.5 2.175 15.825 1.5 15 1.5H9C8.175 1.5 7.5 2.175 7.5 3V5.25C7.5 5.7 7.2 6 6.75 6C6.3 6 6 5.7 6 5.25V3C6 1.35 7.35 0 9 0H15C16.65 0 18 1.35 18 3ZM8.475 6.225C8.175 6.525 8.175 6.975 8.475 7.275L9.45 8.25H0.75C0.3 8.25 0 8.55 0 9C0 9.45 0.3 9.75 0.75 9.75H9.45L8.475 10.725C8.175 11.025 8.175 11.475 8.475 11.775C8.775 12.075 9.225 12.075 9.525 11.775L11.775 9.525C12.075 9.225 12.075 8.775 11.775 8.475L9.525 6.225C9.225 5.925 8.775 5.925 8.475 6.225Z"
+                                       fill="url(#paint0_linear_3129_4945)" />
+                                    <defs>
+                                       <linearGradient id="paint0_linear_3129_4945" x1="18" y1="8.97282" x2="0.112501"
+                                          y2="8.97282" gradientUnits="userSpaceOnUse">
+                                          <stop offset="100%" stop-color="#F05A00" />
+                                          <stop offset="1" stop-color="#CB2D06" />
+                                       </linearGradient>
+                                    </defs>
+                                 </svg>
+                                 Book an Appointment
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Let's Join with Us End-->
+
+      <!--Logistic Footer Section Start-->
+      <footer class="w-100 clearfix logisticTruckFooter" id="logisticFooter">
+         <div class="container">
+            <div class="logisticFooterInner">
+               <div class="logisticFooterRow">
+                  <div class="logisticFooterCol">
+                     <div class="lfColumn lfFooterLogoCol">
+                        <div class="lfLogo">
+                           <img src="images/home-truck/truck-logistic-logo.png" alt="logo" class="img-fluid">
+                        </div>
+                        <div class="lfPara">
+                           <p>MyHomeShifting offers safe, reliable, and affordable moving services across India with expert support.</p>
+                        </div>
+                        <div class="lfSocialMediaIcon">
+                           <ul class="nav">
+                              <li class="nav-item">
+                                 <a class="nav-link" href="https://wa.me/917396004627"><i class="fa fa-whatsapp"
+                                       aria-hidden="true"></i></a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="javascript:void(0);"><i class="fa fa-whatsapp""
+                                       aria-hidden="true"></i></a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="javascript:void(0);"><i class="fa fa-phone"
+                                       aria-hidden="true"></i></a>
+                              </li>
+                              <!-- <li class="nav-item">
+                                 <a class="nav-link" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"
+                                       height="16" width="16" viewBox="0 0 512 512">
+                                       <path
+                                          d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                                          fill="#fff" />
+                                    </svg></a>
+                              </li> -->
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="logisticFooterInnerRow">
+                     <div class="logisticFooterCol">
+                        <div class="lfColumn">
+                           <div class="logisticFooterHead">
+                              <h4>Useful Links</h4>
+                           </div>
+                           <div class="logisticFooterLink">
+                              <ul class="nav flex-column">
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#logisticTruckAbout">About Us</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#logisticShippingEasySteps">Services</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#logisticOurAgent">Our location</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#logisticShippingEasySteps">Make Appointment</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="logisticFooterCol">
+                        <div class="lfColumn">
+                           <div class="logisticFooterHead">
+                              <h4>More Information</h4>
+                           </div>
+                           <div class="logisticFooterLink">
+                              <ul class="nav flex-column">
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="home-track.html">Privacy Policy</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="home-track.html">Terms & Condition</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="#logisticOurAgent">Site Maps</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="logisticFooterCol">
+                        <div class="lfColumn">
+                           <div class="logisticFooterHead">
+                              <h4>Contact Us</h4>
+                           </div>
+                           <div class="logisticFooterLink">
+                              <ul class="nav flex-column contactUs">
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="tel:+917396004627">
+                                       <img src="images/icons/icon4.png" alt="icon" class="img-fluid">
+                                       <span>+91 7396004627</span>
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="mailto:info@myhomeshifting.com">
+                                       <img src="images/icons/icon5.png" alt="icon" class="img-fluid">
+                                       <span>myhomeshiftingp@gmail.com</span>
+                                    </a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0);">
+                                       <img src="images/icons/icon6.png" alt="icon" class="img-fluid">
+                                       <span>First Floor, B-111 14 DUTTL, 5th Main Rd, Narasimha Layout, Yeswanthpur, Bengaluru, Karnataka 560022</span>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="logisticFooterCopyright">
+               <p class="mb-0"> © 2025-26 <a href="javascript:void(0);">MyHomeShifting</a><p>
+            </div>
+         </div>
+      </footer>
+      <!--Logistic Footer Section End-->
+   </main>
+   <script src="js/jquery-3.6.4.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/anime.min.js"></script>
+   <script src="js/gsap.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/fancybox.min.js"></script>
+   <script src="js/custom.js"></script>
+
+
+   <script>
+      const header = document.querySelector(".logisticTrackHeader");
+      const toggleClass = "headerActive";
+      window.addEventListener("scroll", () => {
+         const currentScroll = window.pageYOffset;
+         if (currentScroll > 150) {
+            header.classList.add(toggleClass);
+         } else {
+            header.classList.remove(toggleClass);
+         }
+      });
+   </script>
+
+   <script>
+
+   </script>
+</body>
+
+</html>

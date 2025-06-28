@@ -1,0 +1,2999 @@
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1799px) {
+  .logisticBanner, .logisticSideTwo {
+    height: 95vh;
+  }
+}
+@media (max-width: 1599px) {
+  .logisticCommonHead h2 {
+    font-size: 40px;
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices .logisticAllServicesListRow .logisticAllServicesListCol ul li {
+    font-size: 20px;
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices .logisticAllServicesHeading h5 {
+    font-size: 24px;
+  }
+  .logisticOurTeam {
+    padding: 0px 0;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer {
+    gap: 50px;
+  }
+  .logisticCapabilities {
+    padding: 0px 0 40px;
+  }
+  .logisticTodayNews {
+    padding: 0px 0 60px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent::after {
+    width: 800px;
+    right: 0px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 {
+    font-size: 70px;
+  }
+}
+@media (max-width: 1399px) {
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup {
+    grid-template-columns: 1fr;
+  }
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesContent {
+    width: 600px;
+  }
+  .logisticFeatures .logisticFeaturesInner {
+    height: auto;
+  }
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard {
+    height: 362px;
+    display: flex;
+    align-items: center;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer {
+    grid-template-columns: 150px 1fr 150px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox p {
+    font-size: 18px;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .lfColumn .logisticFooterHead h4 {
+    font-size: 18px;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .logisticFooterInnerRow,
+  .logisticFooter .logisticFooterInner .logisticFooterRow {
+    gap: 20px;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .lfColumn .logisticFooterLink .contactUs li a img {
+    margin-top: 8px;
+  }
+  .logisticTrackPacket .logisticTrackPacketInner {
+    grid-template-columns: 400px 1fr;
+    gap: 50px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticBannerContentInner h1 {
+    font-size: 150px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent::after {
+    width: 600px;
+    height: 400px;
+    right: 0px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation .logisticLocationInner .logisticLocationSvg svg {
+    width: 500px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation {
+    position: absolute;
+    top: -60px;
+    left: -13px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation .logisticLocationInner .logisticLocationSvg .airplane {
+    top: -15px;
+  }
+  .tooltipGroup {
+    top: 90px;
+    right: -340px;
+  }
+  .logisticCommonHead h2 {
+    font-size: 32px;
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices .logisticAllServicesListRow .logisticAllServicesListCol ul li {
+    font-size: 18px;
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices .logisticAllServicesListRow .logisticAllServicesListCol ul li:before {
+    top: 3px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt h2 {
+    font-size: 18px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt p {
+    font-size: 16px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt span {
+    font-size: 14px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt a svg {
+    width: 16px;
+  }
+  .logisticCommonHead.logisticCommonHeadCenter {
+    width: 600px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow:after {
+    top: -80px;
+    right: 0px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow:before {
+    top: -40px;
+    left: 0px;
+  }
+  .logisticTrackPacket {
+    margin: 120px 0 80px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox .logisticOurTestimonialImg h5 {
+    font-size: 26px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox .logisticOurTestimonialImg span {
+    font-size: 18px;
+  }
+  .logisticCatgeries .logisticCatgeriesInner .logisticCatgCol .logisticCatgIcon .logisticCatgeriesTitle h4 {
+    font-size: 28px;
+  }
+  .logisticFloatingCarousel .box-text-inner p,
+  .logisticFloatingCarousel .person-title {
+    font-size: 18px;
+  }
+  .logisticFloatingCarousel .person-name {
+    font-size: 25px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 {
+    font-size: 60px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem4 img {
+    width: 100px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem4 {
+    top: 100px;
+    right: 120px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem5 {
+    right: 20px;
+    top: 180px;
+  }
+  .logisticBanner, .logisticSideTwo {
+    height: 85vh;
+  }
+}
+@media (max-width: 1199px) {
+  .logisticCapabilities .logisticCapabilitiesInner .logisticCapabilitiesCardGroup .logisticCapabilitiesCard {
+    padding: 20px;
+  }
+  .logisticCapabilities .logisticCapabilitiesInner .logisticCapabilitiesCardGroup .logisticCapabilitiesCard h4 {
+    font-size: 28px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsNav ul li a {
+    font-size: 24px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow {
+    gap: 40px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticDistances .logisticDistancesInner .logisticDistancesContent h4 {
+    font-size: 24px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticDistances .logisticDistancesInner .logisticDistancesContent p {
+    font-size: 16px;
+  }
+  .logisticCatgeries .logisticCatgeriesInner .logisticCatgCol .logisticCatgIcon .logisticCatgeriesTitle h4 {
+    font-size: 24px;
+  }
+  .logisticCatgeries .logisticCatgeriesInner .logisticCatgCol .logisticCatgeriesNumber h2 {
+    font-size: 80px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    gap: 20px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg {
+    height: auto;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry {
+    grid-template-columns: 400px 1fr;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox {
+    padding: 60px 40px;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow {
+    grid-template-columns: 1fr;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .lfColumn {
+    width: auto;
+    margin: 0;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .lfColumn .logisticFooterHead h4 {
+    margin-bottom: 20px;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow {
+    gap: 40px;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .lfColumn.lfFooterLogoCol {
+    width: 500px;
+  }
+  .logisticFooter .logisticFooterInner {
+    padding: 80px 0 40px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticAboutUsPara p {
+    font-size: 16px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsNav ul li a {
+    font-size: 22px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs {
+    grid-template-columns: 100px 1fr;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry h2 {
+    font-size: 20px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry p {
+    font-size: 16px;
+  }
+  .logisticCommonHead h2 {
+    font-size: 28px;
+  }
+  .logisticCatgeries .logisticCatgeriesInner .logisticCatgCol .logisticCatgIcon .logisticCatgeriesTitle {
+    margin-top: 150px;
+    position: relative;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    padding: 20px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery:before {
+    width: 100px;
+    height: 100px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery:before {
+    top: -50px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry:before {
+    width: 200px;
+    height: 150px;
+    left: 0px;
+  }
+  .tooltipGroup,
+  .tooltipGroup .tooltip {
+    width: 300px;
+  }
+  .tooltipGroup {
+    right: -250px;
+  }
+  .tooltipGroup .tooltip {
+    font-size: 15px;
+    padding: 15px;
+  }
+  .logisticBanner {
+    height: 84vh;
+    padding: 100px 0 20px;
+  }
+  .logisticOurTeam .logisticOurTeamInner .logisticOurTeamRow .logisticOurTeamCol h2 {
+    font-size: 100px;
+  }
+  .logisticTrackPacket {
+    margin: 100px 0 80px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 {
+    font-size: 50px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem1 {
+    left: 100px;
+    top: 150px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem3 img {
+    width: 60px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem4 img {
+    width: 80px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem4 {
+    top: 120px;
+    right: 120px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem2 img {
+    width: 60px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent .watchNow .watchNowInner .watchNowTxt span {
+    font-size: 40px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent .watchNow .watchNowInner .watchNowImg img {
+    width: 80px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem5 img {
+    width: 60px;
+  }
+  .logisticBlogSingle .logisticBlogSingleGroup {
+    align-items: self-start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 34px;
+  }
+}
+@media (max-width: 991px) {
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow {
+    grid-template-columns: 1fr;
+    align-items: self-start;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    padding: 40px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow .logisticLetJoinCol .logisticLetJoinBtn {
+    justify-content: center;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow .logisticLetJoinCol .logisticLetJoinBtn .primaryBtn {
+    margin-right: 0px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer {
+    grid-template-columns: 1fr;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialUser img {
+    width: 150px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialUser {
+    position: absolute;
+    z-index: 2;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialUser1 {
+    text-align: left;
+    left: 15px;
+    bottom: 0;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialUser2 {
+    text-align: right;
+    right: 15px;
+    bottom: 0;
+  }
+  .logisticLetJoin .logisticLetJoinInner {
+    margin-top: 150px;
+  }
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup,
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesContent {
+    width: 100%;
+  }
+  .logisticOurTeam .logisticOurTeamInner .logisticOurTeamRow .logisticOurTeamCol {
+    margin-bottom: 70px;
+  }
+  .logisticTrackPacket {
+    margin: 20px 0 80px;
+  }
+  .logisticTrackPacket .logisticTrackPacketInner {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .logisticTrackPacket .logisticTrackPacketInner .logisticTrackPacketImg img {
+    width: 200px;
+  }
+  .logisticTrackPacket .logisticTrackPacketInner .logisticTrackPacketImg img {
+    width: 200px;
+    position: static;
+  }
+  .logisticTrackPacket .logisticTrackPacketInner {
+    padding: 40px;
+  }
+  .logisticCapabilities .logisticCapabilitiesInner .logisticCapabilitiesCardGroup .logisticCapabilitiesCard {
+    margin-bottom: 20px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logisticCapabilities .logisticCapabilitiesInner .logisticCapabilitiesCardGroup {
+    margin: 50px 0 0px;
+  }
+  .logisticTrackPacket {
+    margin: 20px 0 40px;
+  }
+  .logisticCatgeries .logisticCatgeriesInner .logisticCatgCol .logisticCatgIcon {
+    margin-bottom: 40px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry {
+    grid-template-columns: 1fr;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 160px 40px 40px;
+    z-index: 2;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery:before {
+    right: 10px;
+  }
+  .logisticCatgeries {
+    padding: 40px 0;
+  }
+  .logisticOurTeam .logisticOurTeamInner .logisticOurTeamRow .logisticOurTeamCol .logisticTeamNam h4 {
+    font-size: 22px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow:after {
+    width: 100px;
+    height: 100px;
+    top: -30px;
+    right: 0px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow:before {
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    left: 0px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow {
+    gap: 10px;
+    padding: 40px;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .logisticFooterInnerRow {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 60px;
+  }
+  .logisticLetJoin .logisticLetJoinInner {
+    margin-top: 80px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticBannerContentInner h1 {
+    font-size: 100px;
+  }
+  .logisticBanner, .logisticSideTwo {
+    height: 72vh;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation .logisticLocationInner .logisticLocationSvg svg {
+    width: 300px;
+    height: 170px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation .logisticLocationInner .logisticLocationSvg .airplane img {
+    width: 30px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation {
+    top: -26px;
+    left: 10px;
+  }
+  .tooltipGroup {
+    top: 120px;
+    right: -260px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation .logisticLocationInner .logisticLocationSvg .airplane {
+    top: -9px;
+    left: -6px;
+  }
+  .tooltipGroup {
+    top: 56px;
+    right: -260px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticBannerContentInner p {
+    font-size: 14px;
+  }
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard a .logisticFeaturesCardInner {
+    padding: 40px;
+  }
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard {
+    margin-bottom: 20px;
+  }
+  .logisticHeader .logisticHeaderInner .logisticNavBar .headerRightSide {
+    gap: 30px;
+  }
+  .main-container,
+  .bg-cirle {
+    height: 180px;
+    width: 180px;
+  }
+  .aeroplane {
+    top: 34px;
+    left: 36px;
+  }
+  .speedmarker_L {
+    left: 28px;
+    top: 72px;
+  }
+  .speedmarker_R {
+    left: 86px;
+    top: 124px;
+  }
+  .author-info .author-name .person-name {
+    font-size: 20px;
+  }
+  .author-info .author-status .person-title {
+    font-size: 16px;
+  }
+  .logisticFloatingCarousel .box-text-inner p {
+    font-size: 16px;
+  }
+  .logisticOurTestimonial {
+    padding: 80px 0 50px;
+  }
+  .logisticFloatingCarousel.wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 {
+    font-size: 35px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent p {
+    font-size: 16px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem1 {
+    left: 50px;
+    top: 150px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem2 {
+    bottom: 80px;
+    left: 40px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem3 {
+    top: 80px;
+    left: 50px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem4 {
+    top: 100px;
+    right: 90px;
+  }
+  .logisticFooter:before {
+    width: 700px;
+    bottom: -46px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry:before {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .logisticCommonHead.logisticCommonHeadCenter {
+    width: 100%;
+  }
+  .logisticAboutUs .logisticAboutUsInner {
+    padding: 0 20px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox {
+    padding: 60px;
+    margin: 0 40px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox p,
+  .box-text-inner p,
+  .author-info .author-status .person-title {
+    font-size: 16px;
+  }
+  .author-info .author-name .person-name {
+    font-size: 22px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox .logisticOurTestimonialImg h5 {
+    font-size: 20px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox .logisticOurTestimonialImg span {
+    font-size: 16px;
+  }
+  .logisticCommonHead h2 {
+    font-size: 24px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox:after {
+    top: -20px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialUser img {
+    width: 120px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent::after {
+    width: 400px;
+    height: 400px;
+  }
+  .logisticBanner {
+    padding: 65px 0 20px;
+  }
+  .logisticBanner, .logisticSideTwo {
+    height: 68vh;
+  }
+  .gradientbtn1 {
+    padding: 12px 15px;
+    width: 180px;
+  }
+  .tooltipGroup,
+  .tooltipGroup .tooltip {
+    width: 250px;
+  }
+  .tooltipGroup {
+    right: -200px;
+  }
+  .tooltipGroup .tooltip .locationTxt p {
+    font-size: 12px;
+  }
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard a .logisticFeaturesCardInner h4 {
+    font-size: 24px;
+  }
+  .logisticFeatures {
+    margin-top: 30px;
+  }
+  .logisticDeliveringPossibilities {
+    padding: 40px 0;
+  }
+  .logisticHeader .logisticHeaderInner {
+    padding: 10px 0;
+  }
+  .logisticHeader .logisticHeaderInner .logisticNavBar .headerRightSide {
+    gap: 20px;
+  }
+  .indxMain1 {
+    background-size: cover;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 {
+    font-size: 26px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow {
+    grid-template-columns: 1fr;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .logisticSideTwoContent {
+    position: relative;
+    z-index: 2;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem1 img {
+    width: 100px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem1 {
+    left: unset;
+    top: unset;
+    bottom: 20px;
+    right: 40px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem2 {
+    bottom: 10px;
+    left: 65px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem3 {
+    top: 30px;
+    left: 40px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 {
+    font-size: 55px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem4 {
+    top: 60px;
+    right: 60px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem5 {
+    right: 40px;
+    top: 240px;
+  }
+}
+@media (max-width: 575px) {
+  .tooltipGroup,
+  .tooltipGroup .tooltip {
+    width: 200px;
+  }
+  .tooltipGroup {
+    top: 56px;
+    right: -160px;
+  }
+  .tooltipGroup .tooltip {
+    font-size: 12px;
+    padding: 12px;
+    gap: 10px;
+  }
+  .logisticHeader .logisticHeaderInner .logisticNavBar .headerRightSide {
+    gap: 15px;
+  }
+  .logisticHeader .logisticHeaderInner .logisticNavBar .logo img {
+    width: 140px;
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices .logisticAllServicesListRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices .logisticAllServicesListRow .logisticAllServicesListCol ul li,
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices p,
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt h2 {
+    font-size: 16px;
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices .logisticAllServicesHeading h5,
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsNav ul li a,
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticDistances .logisticDistancesInner .logisticDistancesContent h4 {
+    font-size: 20px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticDistances .logisticDistancesInner .logisticDistancesContent p,
+  .logisticCommonHead p,
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt p,
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard a .logisticFeaturesCardInner p,
+  .logisticFooter .logisticFooterInner .logisticFooterRow .lfColumn .logisticFooterLink ul li a,
+  .logisticFooter .logisticFooterCopyright p,
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticAboutUsPara p,
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticProgress .logisticProgressBar .logisticProgContant .logisticProgName h2,
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox p,
+  .box-text-inner p {
+    font-size: 14px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    padding: 40px 30px;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .lfColumn.lfFooterLogoCol {
+    width: 100%;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .lfColumn .lfPara {
+    font-size: 16px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox {
+    padding: 40px;
+    margin: 0 10px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticProgress .logisticProgressBar .progress {
+    height: 5px;
+  }
+  .logisticTrackPacket .logisticTrackPacketInner {
+    padding: 20px;
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticDeliver {
+    margin-top: 50px;
+  }
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard {
+    margin-bottom: 0px;
+  }
+  .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup {
+    gap: 80px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticBannerContentInner h1 {
+    font-size: 60px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation {
+    top: -20px;
+    left: 10px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation .logisticLocationInner .logisticLocationSvg svg {
+    width: 200px;
+    height: 100px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation .logisticLocationInner .logisticLocationSvg .airplane {
+    top: -18px;
+    left: -6px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation .logisticLocationInner .logisticLocationSvg .airplane img {
+    width: 25px;
+  }
+  .tooltipGroup {
+    top: 26px;
+    right: -160px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticDistances:after {
+    border-radius: 30px;
+    top: -10px;
+    left: -10px;
+  }
+  .logisticCatgeries:before,
+  .logisticCatgeries:after {
+    width: 80px;
+    height: 80px;
+    top: 20px;
+  }
+  .logisticCatgeries:before {
+    left: 20px;
+  }
+  .logisticCatgeries:after {
+    right: 20px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox {
+    padding: 60px 20px;
+    margin: 0 10px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox .logisticOurTestimonialImg img {
+    width: 60px;
+    height: 60px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsNav ul li a {
+    font-size: 16px;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs {
+    grid-template-columns: 80px 1fr;
+  }
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticProgress .logisticProgressBar .logisticProgContant .logisticProgPercent span {
+    font-size: 12px;
+  }
+  .logisticCatgeries .logisticCatgeriesInner .logisticCatgCol .logisticCatgeriesNumber h2 {
+    font-size: 60px;
+  }
+  .logisticCommonHead h2 {
+    font-size: 20px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow {
+    padding: 40px 20px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox:after {
+    top: 0px;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+  }
+  .logisticOurTeam .logisticOurTeamInner .logisticOurTeamRow .logisticOurTeamCol .logisticTeamNam h4 {
+    font-size: 18px;
+  }
+  .logisticOurTeam .logisticOurTeamInner .logisticOurTeamRow .logisticOurTeamCol .logisticTeamNam span {
+    font-size: 14px;
+  }
+  .logisticTrackPacket .logisticTrackPacketInner:after {
+    width: 80px;
+    height: 80px;
+  }
+  .logisticTrackPacket .logisticTrackPacketInner .logisticTrackPacketImg img {
+    width: 100px;
+  }
+  .logisticTrackPacket .logisticTrackPacketInner .logisticTrackPacketFrm .logisticTrackPacketInput .input-group .input-group-text {
+    padding: 6px 20px;
+    font-size: 12px;
+  }
+  .logisticCapabilities .logisticCapabilitiesInner .logisticCapabilitiesCardGroup .logisticCapabilitiesCard h4 {
+    font-size: 22px;
+  }
+  .logisticCapabilities .logisticCapabilitiesInner .logisticCapabilitiesCardGroup .logisticCapabilitiesCard p {
+    font-size: 16px;
+  }
+  .headerRightSide svg {
+    width: 24px;
+    height: 24px;
+  }
+  .logisticBanner, .logisticSideTwo {
+    height: 56vh;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 {
+    font-size: 38px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent .watchNow .watchNowInner .watchNowTxt span {
+    font-size: 30px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent .watchNow .watchNowInner .watchNowImg img {
+    width: 60px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem5 {
+    right: 40px;
+    top: 220px;
+  }
+  .logisticFooter:before {
+    width: 90%;
+    bottom: -70px;
+  }
+}
+@media (max-width: 450px) {
+  .logisticFooter .logisticFooterInner .logisticFooterRow .logisticFooterInnerRow {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    padding: 40px 20px;
+  }
+  .logisticFooter .logisticFooterInner .logisticFooterRow .lfColumn .lfPara {
+    font-size: 14px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow:after {
+    width: 60px;
+    height: 60px;
+    top: -30px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow:before {
+    width: 50px;
+    height: 50px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow .logisticLetJoinCol .logisticLetJoinBtn .letJoinBtn {
+    padding: 8px 40px;
+  }
+  .logisticAboutUs .logisticAboutUsInner {
+    padding: 0 0px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox p,
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox .logisticOurTestimonialImg span,
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticDistances .logisticDistancesInner .logisticDistancesContent p {
+    font-size: 12px;
+  }
+  .logisticOurTestimonial .logisticOurTestimonialInner .logisticOurTestimonialContainer .logisticOurTestimonialBox .logisticOurTestimonialImg h5,
+  .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticDistances .logisticDistancesInner .logisticDistancesContent h4 {
+    font-size: 16px;
+  }
+  .logisticFeatures .logisticFeaturesInner {
+    padding: 10px;
+  }
+  .logisticCommonHead .logisticFeaturesIcon img {
+    width: 50px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticBannerContentInner p {
+    font-size: 12px;
+  }
+  .gradientbtn1 {
+    font-size: 14px;
+    padding: 12px 15px;
+    width: 120px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent::after {
+    width: 200px;
+    height: 300px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticBannerContentInner p {
+    width: 80%;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticBannerContentInner h1 {
+    font-size: 45px;
+  }
+  .tooltipGroup,
+  .tooltipGroup .tooltip {
+    width: 150px;
+  }
+  .tooltipGroup .tooltip .locationTxt p {
+    font-size: 10px;
+  }
+  .logisticBanner .logisticBannerInner .logisticBannerContent .logisticLocation {
+    top: -38px;
+    left: 2px;
+  }
+  .tooltipGroup .tooltip:after {
+    top: -8px;
+  }
+  .tooltipGroup .tooltip {
+    padding: 12px;
+    gap: 8px;
+    padding: 8px;
+  }
+  .logisticBanner {
+    padding: 65px 0 20px;
+  }
+  .logisticBanner, .logisticSideTwo {
+    height: 46vh;
+  }
+  .tooltipGroup {
+    top: 24px;
+    right: -106px;
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices .logisticAllServicesListRow .logisticAllServicesListCol ul li {
+    font-size: 14px;
+  }
+  .logisticDeliveringPossibilities .logisticDeliveringInner .logisticDeliveringRow .logisticDeliveringCol .logisticAllServices .logisticAllServicesHeading h5 {
+    font-size: 18px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry:before {
+    width: 150px;
+    height: 100px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry {
+    padding: 100px 40px 40px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry h2 {
+    font-size: 18px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry p {
+    font-size: 14px;
+  }
+  .author-info .author-status .person-title {
+    font-size: 14px;
+  }
+  .author-info .author-name .person-name {
+    font-size: 18px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 {
+    font-size: 30px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent form .input-group {
+    flex-direction: column;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent form .input-group input {
+    width: 100%;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent p {
+    font-size: 14px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent .watchNow .watchNowInner .watchNowTxt span {
+    font-size: 24px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent .watchNow .watchNowInner .watchNowImg img {
+    width: 50px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem1 {
+    left: unset;
+    top: unset;
+    bottom: 20px;
+    right: 15px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem2 img {
+    width: 40px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem2 {
+    bottom: 20px;
+    left: 40px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem3 img {
+    width: 40px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem3 {
+    top: 20px;
+    left: 20px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem4 img {
+    width: 40px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem4 {
+    top: 30px;
+    right: 20px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem5 img {
+    width: 40px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem5 {
+    right: 60px;
+    top: 150px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent .watchNow .watchNowInner {
+    gap: 10px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoImgGroup .logisticSideTwoImgItem.logisticSideTwoImgItem1 img {
+    width: 80px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent form .input-group button {
+    justify-content: center;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent p, .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent form {
+    margin-bottom: 20px;
+  }
+  .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 {
+    font-size: 22px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg img, .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg {
+    border-radius: 15px;
+  }
+  .logisticTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry:before {
+    display: none;
+  }
+}
+@media (min-width: 640px) {
+  .logisticFloatingCarousel .logisticFloatingCarousel.wrapper {
+    padding-bottom: 150px;
+  }
+  .logisticFloatingCarousel .col-active {
+    width: 75% !important;
+    height: unset !important;
+    transform: translateX(-50%) !important;
+    top: 0 !important;
+    left: 50% !important;
+  }
+}
+@media (min-width: 840px) {
+  .logisticFloatingCarousel .col-active {
+    width: 50% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .logisticFloatingCarousel .col-active {
+    width: 33.33% !important;
+    height: unset !important;
+    transform: translate(-50%, -50%) !important;
+    top: 50% !important;
+    left: 50% !important;
+  }
+}
+@media (max-width: 767px) {
+  .logisticFloatingCarousel .quote-column {
+    width: 90% !important;
+    top: 0 !important;
+    position: absolute;
+    opacity: 0;
+    transform: translateX(-50%) !important;
+    left: 50%;
+    height: auto !important;
+    z-index: 0;
+    transition: 0.5s all;
+  }
+  .logisticFloatingCarousel .col-active {
+    opacity: 1;
+    z-index: 1;
+  }
+  .logisticFloatingCarousel .col-inner {
+    max-width: 100%;
+  }
+  .logisticFloatingCarousel .author-meta {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.432);
+  }
+  .logisticFloatingCarousel .image-cover {
+    position: relative;
+    width: 30%;
+    max-width: 140px;
+    float: left;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 1.3rem 0rem 1.3rem 0rem;
+    z-index: 1;
+  }
+  .logisticFloatingCarousel .quote-wrapper {
+    visibility: visible;
+  }
+  .logisticFloatingCarousel .quote-wrapper .quote-symbol {
+    font-size: 90px;
+  }
+  .logisticFloatingCarousel .quote-row {
+    min-height: 450px !important;
+  }
+  .logisticOurTestimonial {
+    padding: 80px 0 0px;
+  }
+  .logisticFloatingCarousel .quote-wrapper .quote-symbol {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .logisticFloatingCarousel .quote-wrapper .quote-symbol:first-child {
+    justify-content: end;
+  }
+  .logisticFloatingCarousel .quote-wrapper .quote-symbol:last-child {
+    justify-content: start;
+  }
+}
+@media (max-width: 575px) {
+  .logisticFloatingCarousel .quote-column.col-active,
+  .logisticFloatingCarousel .quote-column {
+    border-radius: 25px;
+  }
+  .logisticFloatingCarousel .quote-column.col-active:after {
+    border-radius: 25px;
+  }
+  .logisticFloatingCarousel .box-text-inner p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 375px) {
+  .logisticFloatingCarousel .quote-row {
+    min-height: 450px !important;
+  }
+  .logisticLetJoin .logisticLetJoinInner {
+    margin-top: 40px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1799px) {
+  .logisticShipAboutUs::before {
+    width: 100%;
+    height: 600px;
+  }
+}
+@media (max-width: 1699px) {
+  .logisticShipAboutUs::before {
+    width: 50%;
+    height: 600px;
+  }
+}
+@media (max-width: 1599px) {
+  .logisticShipCatgeries .logisticCatgeriesInner:before, .logisticShipCatgeries .logisticCatgeriesInner:after, .logisticShipOurTeam .logisticOurTeamInner .logisticOurTeamRow::before, .logisticShipOurTeam .logisticOurTeamInner .logisticOurTeamRow::after {
+    width: 100px;
+    height: 100px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner:after, .logisticShipOurTeam .logisticOurTeamInner .logisticOurTeamRow::after {
+    left: 0;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner:before, .logisticShipOurTeam .logisticOurTeamInner .logisticOurTeamRow::before {
+    right: 0;
+  }
+  .logisticShipTrackPacket {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 1399px) {
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt h2 {
+    font-size: 18px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt p {
+    font-size: 16px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt span {
+    font-size: 14px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt a svg {
+    width: 16px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent h1 {
+    font-size: 60px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent span.logisticSubHeading {
+    font-size: 32px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner .logisticCatgeriesBoxGroup .logisticCatgeriesBoxCard {
+    padding: 20px 10px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner .logisticCatgeriesBoxGroup .logisticCatgeriesBoxCard .logisticCatgeriesContant h4 {
+    font-size: 20px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner .logisticCatgeriesBoxGroup .logisticCatgeriesBoxCard .logisticCatgeriesContant p, .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsContant .logisticShipAccordion #accordion .logisticShipAccordionCard .card .card-body p, .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry p, .logisticFloatingCarousel .box-text-inner p, .logisticFloatingCarousel .person-title {
+    font-size: 16px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner .logisticCatgeriesBoxGroup .logisticCatgeriesBoxCard .logisticCatgeriesContant a {
+    font-size: 14px;
+  }
+  .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsContant .logisticShipAccordion #accordion .logisticShipAccordionCard .card .card-header a {
+    font-size: 26px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt h2 a, .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry h2 a {
+    font-size: 18px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry {
+    grid-template-columns: 400px 1fr;
+  }
+  .logisticBannerImgInner {
+    text-align: center;
+  }
+  .logisticBannerImgInner img {
+    width: 90%;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry .logisticDeliveryImg, .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg img, .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg, .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg img {
+    border-radius: 15px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry, .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    padding: 40px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    gap: 20px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent h1 {
+    font-size: 50px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent .watchNow .watchNowInner .watchNowTxt span {
+    font-size: 36px;
+  }
+  .watchNowImg img {
+    width: 80px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoImgGroup .customNavWithProg .customNavBtn button {
+    width: 60px;
+    height: 60px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent span.logisticSubHeading {
+    font-size: 30px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner .logisticCatgeriesBoxGroup {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logisticShipTrackPacket .logisticShipTrackPacketInner {
+    padding: 40px;
+  }
+  .logisticShipTrackPacket .logisticShipTrackPacketInner .logisticShipTrackImg img {
+    bottom: 10px;
+  }
+  .logisticOurTestimonial {
+    padding: 0px 0 150px;
+  }
+  .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsContant .logisticShipAccordion #accordion .logisticShipAccordionCard .card .card-header a {
+    font-size: 22px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent p {
+    font-size: 16px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry .logisticDeliveryImg img {
+    border-radius: 15px;
+  }
+}
+@media (max-width: 1199px) {
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    gap: 20px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg {
+    height: auto;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry {
+    grid-template-columns: 400px 1fr;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry h2 {
+    font-size: 20px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry p {
+    font-size: 16px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    padding: 20px;
+    height: 100%;
+    align-items: center;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery:before {
+    width: 100px;
+    height: 100px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery:before {
+    top: -50px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry:before {
+    width: 200px;
+    height: 150px;
+    left: 0px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent h1 {
+    font-size: 40px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent span.logisticSubHeading {
+    font-size: 25px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent .watchNow .watchNowInner .watchNowTxt span {
+    font-size: 30px;
+  }
+  .watchNowImg img {
+    width: 60px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent .watchNow .watchNowInner {
+    gap: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry {
+    grid-template-columns: 1fr;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg img {
+    width: 100%;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+    z-index: 2;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery:before {
+    right: 10px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry .logisticDeliveryImg img {
+    height: auto;
+    width: 100%;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg img {
+    height: auto;
+  }
+  .logisticBannerShipInner {
+    height: 90vh;
+  }
+  .logisticShipTrackPacket .logisticShipTrackPacketInner .logisticShipTrackPacketInput .input-group {
+    flex-direction: column;
+  }
+  .logisticShipTrackPacket .logisticShipTrackPacketInner .logisticShipTrackPacketInput input {
+    width: 100%;
+  }
+  .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logisticShipAboutUs::before {
+    width: 97%;
+    top: unset;
+    z-index: -1;
+    bottom: -6%;
+  }
+  .logisticShipTrackPacket .logisticShipTrackPacketInner .logisticShipTrackRow {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logisticShipTrackPacket .logisticShipTrackPacketInner .logisticShipTrackImg img {
+    position: static;
+  }
+}
+@media (max-width: 767px) {
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryImg img {
+    width: 100%;
+  }
+  .logisticShipAboutUs::before {
+    width: 98%;
+    height: 500px;
+    bottom: -9%;
+  }
+  .logisticBannerShipInner {
+    height: 100%;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner .logisticCatgeriesBoxGroup {
+    padding: 40px 20px;
+  }
+  .logisticShipTrackPacket {
+    margin-top: 0px;
+  }
+  .logisticBannerShipInner {
+    height: 100%;
+    padding-top: 120px !important;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent {
+    padding-bottom: 50px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent .watchNow {
+    margin-top: 30px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent h1 {
+    font-size: 36px;
+  }
+  .logisticShipOurTeam {
+    padding: 0px 0;
+  }
+  .logisticShipOurTeam .logisticOurTeamInner .logisticOurTeamRow::before {
+    top: 0;
+  }
+  .logisticShipOurTeam .logisticOurTeamInner .logisticOurTeamRow::after {
+    bottom: 0;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner:before, .logisticShipCatgeries .logisticCatgeriesInner:after, .logisticShipOurTeam .logisticOurTeamInner .logisticOurTeamRow::before, .logisticShipOurTeam .logisticOurTeamInner .logisticOurTeamRow::after {
+    width: 60px;
+    height: 60px;
+  }
+  .logisticBannerImg, .logisticShipTodayNews, .logisticShipAboutUs {
+    padding: 40px 0;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry {
+    padding: 20px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner:before {
+    top: -30px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner:after {
+    bottom: -30px;
+  }
+  .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsRow {
+    gap: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt h2 {
+    font-size: 16px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery .logisticDeliveryInner .logisticDeliveryContant .logisticDeliveryTxt p {
+    font-size: 14px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    padding: 40px 30px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner .logisticCatgeriesBoxGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner .logisticCatgeriesBoxGroup .logisticCatgeriesBoxCard {
+    padding: 20px;
+  }
+  .logisticShipAboutUs::before {
+    display: none;
+  }
+  .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsImg .logisticShipAboutUsImgGroup {
+    gap: 20px;
+  }
+  .logisticCommonHead h2 {
+    font-size: 22px;
+  }
+  .logisticCommonHead h2:after {
+    width: 80px;
+  }
+  .logisticBannerShipInner {
+    height: 100%;
+    padding-top: 90px !important;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoImgGroup .customNavWithProg .customNavBtn button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent h1 {
+    font-size: 30px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent span.logisticSubHeading {
+    font-size: 22px;
+  }
+  .logisticShipBtn {
+    width: 140px;
+    height: 40px;
+  }
+  .logisticFloatingCarousel .quote-column {
+    width: 100% !important;
+  }
+}
+@media (max-width: 450px) {
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry:before {
+    width: 150px;
+    height: 100px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry h2 {
+    font-size: 18px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry p {
+    font-size: 14px;
+  }
+  .logisticShipTrackPacket .logisticShipTrackPacketInner {
+    padding: 30px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent h1 {
+    font-size: 24px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent span.logisticSubHeading {
+    font-size: 18px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent p {
+    font-size: 14px;
+  }
+  .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent .watchNow .watchNowInner .watchNowTxt span {
+    font-size: 25px;
+  }
+  .watchNowImg img {
+    width: 50px;
+  }
+  .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsContant .logisticShipAccordion #accordion .logisticShipAccordionCard .card .card-header a {
+    font-size: 16px;
+  }
+  .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsContant .logisticShipAccordion #accordion .logisticShipAccordionCard .logisticShipAccordionIcon span {
+    width: 50px;
+    height: 50px;
+  }
+  .logisticShipCatgeries .logisticCatgeriesInner .logisticCatgeriesBoxGroup .logisticCatgeriesBoxCard .logisticCatgeriesContant p, .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsContant .logisticShipAccordion #accordion .logisticShipAccordionCard .card .card-body p, .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticIndustry p, .logisticFloatingCarousel .box-text-inner p, .logisticFloatingCarousel .person-title {
+    font-size: 12px;
+  }
+  .logisticShipAboutUs .logisticShipAboutUsInner .logisticShipAboutUsContant .logisticShipAccordion #accordion .logisticShipAccordionCard {
+    gap: 10px;
+  }
+  .logisticShipTodayNews .logisticTodayNewsInner .logisticTodayNewsIndustry .logisticDelivery {
+    padding: 40px 20px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 767px) {
+  nav.logisticFullScreenOverlayMenu .menu-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  nav.logisticFullScreenOverlayMenu ul.menu {
+    width: 100%;
+  }
+  .search-input {
+    padding-right: 50px;
+  }
+  .search-input input {
+    font-size: 30px;
+  }
+  .icon-close {
+    top: 15px;
+    right: 15px;
+    font-size: 40px;
+  }
+  .search-input .search-input-inner {
+    gap: 50px;
+  }
+  .logisticHeader {
+    padding: 0;
+  }
+}
+@media (max-width: 575px) {
+  nav.logisticFullScreenOverlayMenu ul li {
+    cursor: pointer;
+    padding: 0;
+  }
+  nav.logisticFullScreenOverlayMenu ul.menu li a {
+    padding: 0;
+    font-size: 30px;
+  }
+  nav.logisticFullScreenOverlayMenu ul.menu {
+    gap: 10px;
+    padding: 0 15px;
+  }
+  nav.logisticFullScreenOverlayMenu ul.menu li a i {
+    font-size: 16px;
+  }
+  nav.logisticFullScreenOverlayMenu ul.menu li .submenu li a {
+    font-size: 20px;
+    position: relative;
+  }
+  nav.logisticFullScreenOverlayMenu ul.menu li a {
+    margin-bottom: 6px;
+  }
+  nav.logisticFullScreenOverlayMenu ul.menu li .submenu li a {
+    margin-bottom: 8px;
+  }
+  .search-input {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .search-input input {
+    font-size: 26px;
+  }
+  .search-input .search-input-inner .btn {
+    width: 150px;
+  }
+  .search-input input {
+    font-size: 22px;
+  }
+  .search-input .search-input-inner .btn {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1899px) {
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg3 {
+    left: -120px;
+    bottom: -50px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg3 img {
+    width: 70%;
+  }
+}
+@media (max-width: 1799px) {
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg3 {
+    left: -80px;
+    bottom: -50px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg2 {
+    right: -75px;
+    top: -60px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg1 {
+    left: -35px;
+    top: -10px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg3 {
+    left: 8px;
+    bottom: -10px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg5 {
+    top: 300px;
+    left: -25px;
+    width: 100px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg1 {
+    left: -37px;
+    top: 40px;
+    animation: mover2 2s infinite alternate;
+    width: 100px;
+  }
+}
+@media (max-width: 1699px) {
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg3 {
+    left: -14px;
+    bottom: -40px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg1 {
+    left: -40px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg2 img {
+    width: 90%;
+  }
+}
+@media (max-width: 1599px) {
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg2 {
+    left: 200px;
+    top: 50px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg2 {
+    left: 100px;
+    top: 100px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginBannerInner img {
+    width: 200px;
+    animation: zoom1 2s infinite alternate;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg4 {
+    right: -45px;
+    width: 150px;
+  }
+}
+@media (max-width: 1399px) {
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg2 img {
+    width: 80%;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg1 img {
+    width: 80%;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg1 {
+    left: -20px;
+    top: -24px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg2 {
+    top: -72px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm {
+    gap: 10px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .logisticLoginFrmHead {
+    margin-bottom: 20px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorContent img {
+    width: 80%;
+  }
+}
+@media (max-width: 1199px) {
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg2 {
+    left: 150px;
+    top: 100px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg2 img {
+    width: 70%;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg2 {
+    right: -110px;
+    top: -60px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg3 {
+    left: 0px;
+    bottom: -20px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg4 {
+    right: -45px;
+  }
+  .logisticLogin::before {
+    width: 915px;
+    height: 415px;
+  }
+}
+@media (max-width: 991px) {
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg2 {
+    left: 40px;
+    top: 100px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg3 img {
+    width: 100%;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg1 {
+    top: -5px;
+    width: 100px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg5 {
+    top: 200px;
+    left: -25px;
+    width: 50px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg4 {
+    right: -45px;
+    width: 100px;
+    top: 30%;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg3 {
+    width: 100px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .logisticLoginFrmHead h2 {
+    font-size: 35px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner .logisticLoginImgItem.logisticLoginImg2 {
+    left: 20px;
+    top: 100px;
+    width: 150px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg2 {
+    right: -75px;
+    top: -40px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm .logisticFrmGroup .input-group input {
+    height: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginBanner {
+    display: none;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .logisticLogin::before {
+    width: 590px;
+    height: 328px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm .logisticOr span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 575px) {
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .logisticLoginFrmHead h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .logisticLoginFrmHead h2 {
+    font-size: 35px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .logisticLoginFrmHead p {
+    font-size: 22px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .logisticLoginFrmHead {
+    margin-bottom: 20px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm {
+    gap: 10px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm .logisticOr {
+    margin: 5px 0;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm .logisticLoginSocialIcon ul li a {
+    width: 40px;
+    height: 40px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm .logisticLoginSocialIcon ul li a img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg2 img {
+    width: 50%;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg2 {
+    right: -135px;
+    top: -80px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg1 img {
+    width: 60%;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrm.logisticLoginFormImg1 {
+    left: -22px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm .logisticFrmTeamGroup {
+    gap: 5px;
+    flex-direction: column;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner {
+    padding: 20px;
+  }
+  .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm .accountSignUp p {
+    font-size: 14px;
+  }
+  .logisticLogin.logisticSignUp .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .logisticLoginFrmHead h2 {
+    font-size: 25px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 991px) {
+  .logisticError .logisticErrorInner .logisticErrorContent img {
+    width: 400px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg1 {
+    left: -40px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg2 {
+    top: 130px;
+    right: -24px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg3 {
+    top: 190px;
+    right: -100px;
+  }
+}
+@media (max-width: 767px) {
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner img {
+    width: 60%;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg3 {
+    right: -25px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg1 {
+    left: -10px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorContent {
+    gap: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .logisticError .logisticErrorInner {
+    width: 100%;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner img {
+    width: 120px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg2 {
+    top: 220px;
+    right: 31px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg3 {
+    top: 242px;
+    right: -2px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg3 img {
+    width: 80px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg1 {
+    left: -15px;
+    top: 80px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorContent p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 450px) {
+  .logisticError .logisticErrorInner .logisticErrorContent img {
+    width: 350px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg1 {
+    left: 0;
+    top: 139px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg2 {
+    top: 148px;
+    right: 2px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner img {
+    width: 80px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg3 {
+    top: 343px;
+    right: unset;
+    left: 0px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorContent img {
+    width: 250px;
+  }
+  .logisticError .logisticErrorInner .logisticErrorImg .logisticErrorImgGroup .logisticErrorImgInner.logisticErrorImg3 img {
+    width: 50px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1599px) {
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience {
+    top: 50px;
+    left: 200px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .cloud01 {
+    top: 0;
+    right: 150px;
+    width: 120px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .cloud02 {
+    width: 80px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessItemGroup .logisticSolutionBusinessItem {
+    padding: 10px;
+    gap: 10px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessItemGroup .logisticSolutionBusinessItem .logisticSolutionBusinessNumber span {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1399px) {
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience {
+    top: 50px;
+    left: 174px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience {
+    width: 160px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience .logisticYearsExperienceInner p {
+    font-size: 18px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience .logisticYearsExperienceInner span {
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 1199px) {
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience {
+    top: 10px;
+    left: 145px;
+    width: 140px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .cloud01 {
+    top: 0;
+    right: 100px;
+    width: 100px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .cloud02 {
+    width: 50px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessItemGroup .logisticSolutionBusinessItem .logisticSolutionBusinessTxt p {
+    font-size: 16px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessAuthor {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .logisticInnerPageBanner {
+    padding: 146px 0 60px;
+  }
+}
+@media (max-width: 991px) {
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent {
+    margin-bottom: 80px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience {
+    top: 100px;
+    left: 222px;
+    width: 140px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .cloud01 {
+    top: 0;
+    right: 200px;
+    width: 120px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .cloud02 {
+    width: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience {
+    top: 40px;
+    left: 165px;
+    width: 140px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .cloud01 {
+    top: 0;
+    right: 150px;
+    width: 100px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .cloud02 {
+    width: 50px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience .logisticYearsExperienceInner p, .logisticCommonHead p {
+    font-size: 16px;
+  }
+  .logisticInnerPageBanner .innerPageBannerInner .logisticCommonHead h2 {
+    margin-bottom: 35px;
+  }
+  .logisticInnerPageBanner .innerPageBannerInner .logisticCommonHead p {
+    margin-bottom: 20px;
+  }
+  .logisticOurTestimonial {
+    padding: 40px 0;
+  }
+  .logisticInnerPageBanner {
+    padding: 126px 0 40px;
+  }
+}
+@media (max-width: 575px) {
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessItemGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticCommonHead {
+    margin-bottom: 40px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessAuthor .logisticAuthor .logisticAuthorTxt h4 {
+    font-size: 22px;
+  }
+  .logisticInnerPageBanner .innerPageBannerInner .logisticBreadcrumb .breadcrumb li {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .logisticInnerPageBanner .innerPageBannerInner .logisticBreadcrumb .breadcrumb li, .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience .logisticYearsExperienceInner p, .logisticCommonHead p, .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessItemGroup .logisticSolutionBusinessItem .logisticSolutionBusinessTxt p, .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessAuthor .logisticAuthor .logisticAuthorTxt p {
+    font-size: 14px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessItemGroup .logisticSolutionBusinessItem .logisticSolutionBusinessNumber span {
+    font-size: 24px;
+  }
+  .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessContent .logisticSolutionBusinessAuthor .logisticAuthor .logisticAuthorTxt h4 {
+    font-size: 18px;
+  }
+  .logisticInnerPageBanner {
+    padding: 100px 0 20px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1399px) {
+  .logisticBlogSidebar .logisticBlogItem .logisticMiniBlog .logisticMiniBlogItem {
+    grid-template-columns: 100px 1fr;
+  }
+  .logisticBlogSidebar .logisticBlogItem .logisticBlogHead h4 {
+    font-size: 26px;
+  }
+  .logisticBlogSidebar .logisticBlogItem .logisticMiniBlog .logisticMiniBlogItem .logisticMiniBlogContant p {
+    font-size: 15px;
+  }
+  .logisticBlogSidebar .logisticBlogItem .logisticMiniBlog .logisticMiniBlogItem .logisticMiniBlogContant span {
+    font-size: 14px;
+  }
+  .logisticBlogSidebar .logisticBlogItem .logisticGalleryMini {
+    gap: 10px;
+  }
+  .logisticBlogSidebar .logisticBlogItem .logisticBlogTagsItems .logisticBlogTagsItem {
+    font-size: 16px;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentContent .logisticCommentContentHead h4 {
+    font-size: 26px;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentContent .logisticCommentContentHead {
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentContent .logisticCommentPara p {
+    font-size: 16px;
+  }
+  .logisticBlogSidebar .logisticBlogItem .logisticMiniBlog .logisticMiniBlogItem {
+    grid-template-columns: 80px 1fr;
+  }
+  .logisticBlogSingle .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt p, .logisticCommonHead p {
+    font-size: 16px;
+  }
+  .logisticBlogSidebar .logisticBlogItem .logisticBlogDetails .table tr td {
+    font-size: 16px;
+    text-align: right;
+  }
+  .logisticBlogSidebar .logisticBlogItem .logisticBlogDetails .table tr th {
+    font-size: 18px;
+  }
+  .logisticBlogSidebar .logisticBlogItem .logisticBlogHead h4 {
+    font-size: 24px;
+  }
+  .logisticLetJoin .logisticLetJoinInner .logisticLetJoinRow {
+    gap: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentContent .logisticCommentContentHead h4 {
+    font-size: 22px;
+  }
+  .logisticBlogSingle .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt p {
+    font-size: 16px;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentContent .logisticCommentContentHead {
+    align-items: self-start;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentContent .logisticCommentPara p {
+    font-size: 16px;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem {
+    align-items: self-start;
+  }
+}
+@media (max-width: 767px) {
+  .logisticBlogGrid .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt h5 a {
+    font-size: 20px;
+  }
+  .logisticBlogGrid .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt p {
+    font-size: 16px;
+  }
+  .logisticBlogGrid {
+    padding: 40px 0 0;
+  }
+  .logisticBlogGrid .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt a.linkBtn {
+    font-size: 16px;
+  }
+  .logisticBlogGrid .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt a.linkBtn img {
+    display: inline-block;
+    width: 18px;
+  }
+  .logisticLeaveMessage {
+    padding: 40px 0;
+  }
+  .logisticLetJoin .logisticLetJoinInner {
+    margin-top: 40px;
+  }
+  .logisticBlogSingle {
+    padding: 40px 0 0;
+  }
+}
+@media (max-width: 575px) {
+  .logisticBlogGrid .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt h5 a {
+    font-size: 18px;
+  }
+  .logisticBlogGrid .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt p {
+    font-size: 14px;
+  }
+  .logisticBlogGrid .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt a.linkBtn {
+    font-size: 14px;
+  }
+  .logisticBlogGrid .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt a.linkBtn img {
+    width: 16px;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentContent .logisticCommentPara p {
+    font-size: 14px;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentContent .logisticCommentContentHead h4 {
+    font-size: 18px;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentImg img, .logisticComment .logisticCommentInner .logisticCommentItem .logisticCommentImg {
+    width: 100px;
+    height: 100px;
+  }
+  .logisticComment .logisticCommentInner .logisticCommentItem {
+    grid-template-columns: 100px 1fr;
+  }
+  .logisticComment .logisticCommentInner.logisticCommentGroup .logisticCommentLink a.logisticCommentBtn {
+    font-size: 16px;
+  }
+  .logisticBlogSingle .logisticBlogSingleGroup .logisticBlogSingleTags .logisticTagsList ul li a {
+    font-size: 12px;
+    padding: 8px 18px;
+  }
+  .logisticBlogSingle .logisticBlogSingleGroup .logisticBlogSingleTags .logisticTagsList ul {
+    gap: 20px 10px;
+  }
+  .logisticBlogSingle .logisticBlogSingleGroup .logisticBlogSingleTags {
+    align-items: self-start;
+    gap: 25px;
+    flex-direction: column;
+  }
+  .logisticBlogSingle .logisticBlogSingleGroup .logisticBlogSingleTags .logisticTagsHeading h5 {
+    font-size: 20px;
+  }
+  .logisticBlogSingle .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt p {
+    font-size: 14px;
+  }
+  .logisticComment .logisticCommentHead {
+    margin: 30px 0 40px;
+  }
+  .logisticBlogSingle .logisticBlogThreeGridCard .logisticBlogThreeGridCardTxt ul li span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 450px) {
+  .logisticComment .logisticCommentInner .logisticCommentItem {
+    grid-template-columns: 1fr;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1599px) {
+  .logisticProductServices .logisticProductServicesInner .logisticProductServiceCardGroup .logisticProductServicesCard {
+    padding: 15px;
+  }
+}
+@media (max-width: 1399px) {
+  .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard h2 {
+    font-size: 26px;
+  }
+  .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard span.logisticOurProcessNumber {
+    font-size: 100px;
+  }
+  .owlCarouselBar .owlCarouselDots .owl-dot {
+    width: 50px;
+  }
+  .owlCarouselBar .owlCarouselNav a {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+}
+@media (max-width: 1199px) {
+  .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard p {
+    font-size: 16px;
+  }
+  .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard h2 {
+    font-size: 22px;
+  }
+  .owlCarouselBar .owlCarouselNav a {
+    width: 50px;
+    height: 50px;
+  }
+  .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard span.logisticOurProcessNumber {
+    font-size: 80px;
+  }
+  .owlCarouselBar .owlCarouselDots {
+    display: flex;
+    align-items: center;
+  }
+  .logisticProductServices, .logisticServiceCenter {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 991px) {
+  .owlCarouselBar {
+    position: static;
+    margin-top: 40px;
+  }
+  .logisticFaq {
+    padding: 0 0 40px;
+  }
+  .logisticFaq .logisticFaqInner .logisticFaqAccordion .card .card-header a.btn {
+    font-size: 20px;
+  }
+  .logisticFaq .logisticFaqInner .logisticFaqAccordion .card .card-body {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .logisticServiceCenter .logisticServiceCenterInner .logisticServiceCenterBanner .logisticServiceCenterImg1 {
+    margin-bottom: 20px;
+  }
+  .logisticFaq .logisticFaqInner .logisticFaqAccordion .card .card-header a.btn {
+    font-size: 18px;
+  }
+}
+@media (max-width: 575px) {
+  .owlCarouselBar .owlCarouselDots .owl-dot {
+    width: 40px;
+  }
+  .logisticProductServices .logisticProductServicesInner .logisticProductServiceCardGroup .logisticProductServicesCard .logisticProductServicesTxt p {
+    font-size: 16px;
+  }
+  .logisticProductServices .logisticProductServicesInner .logisticProductServiceCardGroup .logisticProductServicesCard .logisticProductServicesTxt h4, .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 450px) {
+  .owlCarouselBar .owlCarouselDots .owl-dot {
+    width: 20px;
+  }
+  .owlCarouselBar .owlCarouselNav a {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard {
+    padding: 20px 25px 30px;
+  }
+  .logisticProductServices .logisticProductServicesInner .logisticProductServiceCardGroup .logisticProductServicesCard .logisticProductServicesTxt p, .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard p {
+    font-size: 14px;
+  }
+  .logisticProductServices .logisticProductServicesInner .logisticProductServiceCardGroup .logisticProductServicesCard .logisticProductServicesTxt h4, .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard h2 {
+    font-size: 18px;
+  }
+  .primaryBtn {
+    font-size: 14px;
+  }
+  .logisticFaq .logisticFaqInner .logisticFaqAccordion .card .card-header a.btn {
+    font-size: 16px;
+  }
+  .logisticFaq .logisticFaqInner .logisticFaqAccordion .card .card-body {
+    font-size: 14px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 767px) {
+  .logisticGalleryGrid {
+    padding: 40px 0;
+  }
+  .logisticGalleryGrid .logisticGalleryGridInner .logisticGalleryItem img {
+    border-radius: 10px;
+  }
+  .logisticGalleryGrid .logisticGalleryGridInner {
+    gap: 10px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1599px) {
+  .logisticOurAgent.logisticOurTeam {
+    padding: 80px 0;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1399px) {
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent span {
+    font-size: 25px;
+  }
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentTbl tbody tr th {
+    font-size: 20px;
+  }
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentHead h5 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1199px) {
+  .logisticAgentSingleImg {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1199px) {
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentHead h5 {
+    font-size: 30px;
+  }
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentHead small, .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .logisticAgentSingle {
+    padding: 40px 0;
+  }
+  .logisticPersonalExperience {
+    padding: 20px 0;
+  }
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent span {
+    font-size: 22px;
+  }
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentTbl tbody tr th {
+    font-size: 18px;
+  }
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentTbl tbody tr td {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentTbl tbody tr th, .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentTbl tbody tr td {
+    display: block;
+    padding: 4px 0;
+  }
+}
+@media (max-width: 450px) {
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentHead h5 {
+    font-size: 26px;
+  }
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent span {
+    font-size: 18px;
+  }
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentHead small, .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent p, .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentTbl tbody tr td, .logisticLeaveMessage .logisticLeaveMessageInner .logisticLeaveMessageForm .leaveMessageFrm .logisticFrmGroup label, .logisticLeaveMessage .logisticLeaveMessageInner .logisticLeaveMessageForm .leaveMessageFrm .logisticFrmGroup input::placeholder {
+    font-size: 14px;
+  }
+  .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentTbl tbody tr th {
+    font-size: 16px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1399px) {
+  .logisticContactUs .logisticCapabilitiesCardGroup .logisticCapabilitiesCard h4 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1199px) {
+  .logisticContactUs .logisticCapabilitiesCardGroup .logisticCapabilitiesCard h4 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 991px) {
+  .logisticContactUs .logisticCapabilitiesCardGroup .row {
+    gap: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .logisticMap .logisticMapInner .logisticMapLocation iframe {
+    height: 400px;
+  }
+  .logisticContactUs .logisticCapabilitiesCardGroup .logisticCapabilitiesCard h4 {
+    font-size: 22px;
+  }
+  .logisticContactUs {
+    padding: 40px 0;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1199px) {
+  .logisticContactDetails .logisticCapabilitiesCardGroup .logisticCapabilitiesCard h4 {
+    font-size: 28px;
+  }
+  .logisticFaqSec {
+    padding: 80px 0;
+  }
+  .logisticContactDetails .logisticCapabilitiesCardGroup .logisticCapabilitiesCard {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .logisticContactDetails {
+    padding: 0px 0 0px;
+  }
+  .logisticFaqSec .logisticFaqAccordion #accordion .logisticShipAccordionCard .card .card-body p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .logisticFaqSec {
+    padding: 40px 0;
+  }
+  .logisticFaqSec .logisticFaqAccordion #accordion .logisticShipAccordionCard .card .card-header a {
+    font-size: 18px;
+  }
+  .logisticFaqSec .logisticFaqAccordion #accordion .logisticShipAccordionCard .card .card-header a {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .logisticFaqSec .logisticFaqAccordion #accordion .logisticShipAccordionCard .card .card-header a {
+    font-size: 16px;
+  }
+  .logisticContactDetails .logisticCapabilitiesCardGroup .logisticCapabilitiesCard h4 {
+    font-size: 24px;
+  }
+  .logisticContactDetails .logisticCapabilitiesCardGroup .logisticCapabilitiesCard a {
+    font-size: 16px;
+  }
+  .logisticFaqSec .logisticFaqAccordion #accordion .logisticShipAccordionCard .card .card-body p {
+    font-size: 14px;
+  }
+}
+/*-----------------------------------------------------------------------------------
+
+   Template Name: foxhub
+  Author: Webstrot
+  Version: 1.0.0
+*/
+@media (max-width: 1799px) {
+  .logisticPricingPlans .logisticPricingPlansMask h2 {
+    font-size: 180px;
+  }
+  .logisticShippingEasySteps:after {
+    width: 837px;
+  }
+}
+@media (max-width: 1699px) {
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent h1 {
+    font-size: 360px;
+  }
+}
+@media (max-width: 1699px) {
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent h1 {
+    font-size: 340px;
+  }
+  .logisticPricingPlans .logisticPricingPlansMask h2 {
+    font-size: 160px;
+  }
+  .logisticShippingEasySteps:after {
+    width: 786px;
+    bottom: -334px;
+  }
+  .logisticPricingPlans {
+    padding-top: 90px;
+  }
+}
+@media (max-width: 1599px) {
+  .logisticShippingEasySteps:after {
+    width: 735px;
+    bottom: -378px;
+  }
+  .logisticPricingPlans {
+    padding-top: 92px;
+  }
+  .logisticTrackHeader .logisticTrackHeaderInner .logisticMainMenu ul li.trackHeaderLogo {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 1400px) {
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent h1 {
+    font-size: 320px;
+  }
+  .logisticTrackHeader .logisticTrackHeaderInner .logisticMainMenu ul li a, .logisticTrackHeader .logisticTrackHeaderInner .logisticTrackLogin a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+  }
+  .logisticTrackHeader .logisticTrackHeaderInner .logisticMainMenu ul li a {
+    padding: 10px;
+  }
+}
+@media (max-width: 1399px) {
+  .logisticPricingPlans .logisticPricingPlansMask h2 {
+    font-size: 130px;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent h1 {
+    font-size: 290px;
+  }
+  .logisticTrackBanner::before {
+    height: 85%;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent img {
+    margin-top: -160px;
+  }
+  .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-content .trackingContentImg .trackingContent p {
+    width: 80%;
+  }
+  .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-content p, .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-content .trackingContentImg .trackingContent p {
+    font-size: 16px;
+  }
+  .logisticPricingPlans {
+    padding-top: 70px;
+  }
+  .logisticShippingEasySteps:after {
+    width: 682px;
+    bottom: -422px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesBox .logisticFeaturesInnerRow .logisticFeaturesBoxGroup .logisticFeaturesBox h4 {
+    font-size: 22px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesBox .logisticFeaturesInnerRow .logisticFeaturesBoxGroup .logisticFeaturesBodrBox p {
+    font-size: 18px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesBox .logisticFeaturesInnerRow .logisticFeaturesBoxGroup .logisticFeaturesBox p, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogCardGroup .logisticTruckOurBlogCardItem .logisticTruckOurBlogCardImg .logisticCalner p, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogHead p, .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead p {
+    font-size: 16px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesHead h2, .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead h2, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt h2, .logisticPricingPlans .logisticPricingPlansInner h2, .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingEasyHead h2, .logisticTruckGallery .logisticTruckGalleryInner .logisticTruckGalleryHead h2, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogHead h2, .logisticTruckOurNewsletter .logisticTruckOurNewsletterInner .logisticTruckOurNewsletterRow .logisticTruckOurNewsletterCol .logisticTruckOurNewsletterHead h2 {
+    font-size: 32px;
+  }
+  .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogCardGroup .logisticTruckOurBlogCardItem .logisticTruckOurBlogCardTxt p a, .logisticOurAgent .logisticOurAgentInner .logisticOurAgentRow .logisticOurAgentCard .logisticOurAgentCardHead .logisticOurAgentName h5 a {
+    font-size: 18px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesHead h2::before {
+    width: 80px;
+  }
+  .logisticTracPacket .logisticTracPacketInner .logisticTracPacketRow .logisticTrackPacketCol h2 {
+    font-size: 38px;
+  }
+  .logisticOurAgent .logisticOurAgentInner .logisticOurAgentRow .logisticOurAgentCard .logisticOurAgentCardHead {
+    grid-template-columns: 1fr 64px;
+  }
+  .logisticOurAgent .logisticOurAgentInner .logisticOurAgentRow .logisticOurAgentCard .logisticOurAgentCardHead .logisticOurAgentName span, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt p {
+    font-size: 16px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt h4 {
+    font-size: 26px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt.logisticTruckAboutTxt1 {
+    padding: 0px 0 100px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt.logisticTruckAboutTxt2 {
+    padding: 100px 0 0px;
+  }
+  .logisticPricingPlans .logisticPricingPlansMask h2 {
+    font-size: 120px;
+  }
+  .logisticTruckFooter .logisticFooterInner .logisticFooterRow .lfColumn .logisticFooterHead h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  .logisticShippingEasySteps:after {
+    display: none;
+  }
+  .logisticShippingSteps {
+    margin-bottom: 40px;
+  }
+  .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogCardGroup .logisticTruckOurBlogCardItem .logisticTruckOurBlogCardTxt .logisticTruckOurBlogInnerLst {
+    align-items: self-start;
+    gap: 8px;
+    flex-direction: column;
+  }
+  .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogHead p {
+    width: 70%;
+  }
+  .logisticTruckOurNewsletter .logisticTruckOurNewsletterInner .logisticTruckOurNewsletterRow .logisticTruckOurNewsletterCol .logisticTruckOurNewsletterHead p, .logisticTruckFooter .logisticFooterInner .logisticFooterRow .lfColumn .lfPara {
+    font-size: 16px;
+  }
+  .logisticTruckFooter .logisticFooterInner .logisticFooterRow .lfColumn .logisticFooterHead h4 {
+    font-size: 18px;
+  }
+  .logisticTruckFooter .logisticFooterInner .logisticFooterRow .lfColumn .logisticFooterLink ul li a {
+    font-size: 14px;
+  }
+  .logisticOurAgentCard {
+    margin-bottom: 30px;
+  }
+  .logisticOurAgent .logisticOurAgentInner .logisticOurAgentRow .logisticOurAgentCard .logisticOurAgentCardHead {
+    grid-template-columns: 1fr 100px;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent h1 {
+    font-size: 235px;
+  }
+  .logisticPricingPlans .logisticPricingPlansMask h2 {
+    font-size: 100px;
+  }
+  .logisticPricingPlans .logisticPricingPlansInner p, .logisticTruckGallery .logisticTruckGalleryInner .logisticTruckGalleryHead p {
+    width: 70%;
+  }
+  .logisticPricingPlans .logisticPriceTbl .logisticPriceTblInner .logisticPriceTblCard .logisticPriceTblHead h2 {
+    font-size: 60px;
+  }
+  .logisticPricingPlans {
+    padding-top: 56px;
+  }
+  .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead p {
+    width: 56%;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesBox .logisticFeaturesInnerRow .logisticFeaturesBoxGroup .logisticFeaturesBodrBox p {
+    font-size: 16px;
+  }
+  .logisticTrackHeader .logisticTrackHeaderInner .logisticMainMenu ul li.trackHeaderLogo {
+    padding: 0 0px;
+  }
+  .logisticTrackHeader .logisticTrackHeaderInner .logisticMainMenu ul li.trackHeaderLogo img {
+    width: 160px;
+  }
+  .logisticTrackHeader .logisticTrackHeaderInner .logisticMainMenu ul li a, .logisticTrackHeader .logisticTrackHeaderInner .logisticTrackLogin a {
+    font-size: 16px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutImg.logisticTruckAboutImg1::after, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutImg.logisticTruckAboutImg2::before, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutImg.logisticTruckAboutImg1::before {
+    width: 150px;
+  }
+}
+@media (max-width: 991px) {
+  .logisticFeaturesImg {
+    margin-top: 50px;
+  }
+  .logisticTracPacket .logisticTracPacketInner .logisticTracPacketRow {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 180px;
+  }
+  .logisticTracPacket .logisticTracPacketInner {
+    margin-top: 0;
+  }
+  .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogCardGroup .logisticTruckOurBlogCardItem .logisticTruckOurBlogCardImg img {
+    width: 100%;
+  }
+  .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogCardGroup .logisticTruckOurBlogCardItem {
+    margin-bottom: 40px;
+  }
+  .logisticPricingPlans .logisticPricingPlansMask h2 {
+    font-size: 74px;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent h1 {
+    font-size: 170px;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent img {
+    margin-top: -102px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt.logisticTruckAboutTxt1 {
+    padding: 0px 0 40px;
+  }
+  .logisticPricingPlans .logisticPricingPlansInner p, .logisticPricingPlans .logisticPriceTbl .logisticPriceTblInner .logisticPriceTblCard .logisticPriceTblHead p {
+    font-size: 16px;
+  }
+  .logisticPricingPlans .logisticPriceTbl .logisticPriceTblInner .logisticPriceTblCard .logisticPriceTblList .logisticPriceTblItem p {
+    font-size: 14px;
+  }
+  .logisticPricingPlans .logisticPriceTbl .logisticPriceTblInner .logisticPriceTblCard .logisticPriceTblHead h2 {
+    font-size: 50px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesHead h2, .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead h2, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt h2, .logisticPricingPlans .logisticPricingPlansInner h2, .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingEasyHead h2, .logisticTruckGallery .logisticTruckGalleryInner .logisticTruckGalleryHead h2, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogHead h2, .logisticTruckOurNewsletter .logisticTruckOurNewsletterInner .logisticTruckOurNewsletterRow .logisticTruckOurNewsletterCol .logisticTruckOurNewsletterHead h2 {
+    font-size: 28px;
+  }
+  .logisticTracPacket .logisticTracPacketInner .logisticTracPacketRow .logisticTrackPacketCol h2 {
+    font-size: 30px;
+  }
+  .logisticTruckFooter .logisticFooterInner .logisticFooterRow {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt.logisticTruckAboutTxt1 {
+    text-align: left;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt h2::before {
+    left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .logisticPricingPlans .logisticPricingPlansMask h2 {
+    font-size: 47px;
+  }
+  .logisticPricingPlans .logisticPricingPlansInner p, .logisticTruckGallery .logisticTruckGalleryInner .logisticTruckGalleryHead p, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogHead p {
+    width: 100%;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent h1 {
+    font-size: 125px;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent img {
+    margin-top: -76px;
+  }
+  .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingStepsImg {
+    flex-direction: column;
+  }
+  .logisticShippingEasySteps {
+    padding: 0px 0;
+  }
+  .logisticTruckOurBlog {
+    padding: 40px 0;
+  }
+  .logisticTruckOurNewsletter .logisticTruckOurNewsletterInner .logisticTruckOurNewsletterRow {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .logisticTruckFooter .logisticFooterInner .logisticFooterRow .lfColumn .logisticFooterHead h4 {
+    font-size: 16px;
+  }
+  .logisticPricingPlans {
+    padding-top: 22px;
+  }
+  .logisticPricingPlans .logisticPriceTbl .logisticPriceTblInner {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .logisticPricingPlans .logisticPriceTbl .logisticPriceTblInner .logisticPriceTblCard:nth-child(1) .logisticPriceTblHead, .logisticPricingPlans .logisticPriceTbl .logisticPriceTblInner .logisticPriceTblCard:nth-child(1) .logisticPriceTblList .logisticPriceTblItem, .logisticPricingPlans .logisticPriceTbl .logisticPriceTblInner .logisticPriceTblCard:nth-child(2) .logisticPriceTblHead, .logisticPricingPlans .logisticPriceTbl .logisticPriceTblInner .logisticPriceTblCard:nth-child(2) .logisticPriceTblList .logisticPriceTblItem {
+    border-right: 1px solid #999;
+  }
+  .logisticPricingPlans .logisticPriceTbl {
+    margin-bottom: 50px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt.logisticTruckAboutTxt1 {
+    text-align: left;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt h2::before {
+    left: 0;
+  }
+  .logisticTruckAbout {
+    padding: 40px 0;
+  }
+  .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead {
+    align-items: self-start;
+    flex-direction: column;
+  }
+  .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead p {
+    width: 100%;
+    text-align: left;
+  }
+  .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead h2 {
+    margin-bottom: 40px;
+  }
+  .logisticOurAgent .logisticOurAgentInner .logisticOurAgentRow .logisticOurAgentCard .logisticOurAgentCardHead .logisticOurAgentName h5 a {
+    font-size: 24px;
+  }
+  .logisticOurAgent .logisticOurAgentInner .logisticOurAgentRow .logisticOurAgentCard .logisticOurAgentCardHead .logisticOurAgentName span {
+    font-size: 18px;
+  }
+  .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-content .trackingContentImg .trackingContent h6, .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-content h5 {
+    font-size: 20px;
+  }
+  .logisticTruckFooter .logisticFooterInner .logisticFooterRow .logisticFooterInnerRow {
+    gap: 10px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesHead h2, .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead h2, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt h2, .logisticPricingPlans .logisticPricingPlansInner h2, .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingEasyHead h2, .logisticTruckGallery .logisticTruckGalleryInner .logisticTruckGalleryHead h2, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogHead h2, .logisticTruckOurNewsletter .logisticTruckOurNewsletterInner .logisticTruckOurNewsletterRow .logisticTruckOurNewsletterCol .logisticTruckOurNewsletterHead h2 {
+    font-size: 24px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesBox .logisticFeaturesInnerRow .logisticFeaturesBoxGroup .logisticFeaturesBox h4 {
+    font-size: 20px;
+  }
+  .logisticTruckFooter .logisticFooterInner, .logisticTrustedUsers {
+    padding: 40px 0;
+  }
+  .logisticTruckFooter {
+    padding-top: 100px;
+  }
+  .logisticMoreThanFeatures {
+    padding: 40px 0;
+  }
+  .logisticTruckGallery {
+    padding-top: 40px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt h4 {
+    font-size: 20px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesBox .logisticFeaturesInnerRow .logisticFeaturesBoxGroup {
+    gap: 0;
+  }
+  .logisticFeaturesBoxGroup .logisticFeaturesBox {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .logisticTruckFooter .logisticFooterInner .logisticFooterRow .logisticFooterInnerRow {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+  .logisticTruckFooter .logisticFooterInner .logisticFooterRow .lfColumn {
+    width: 100%;
+  }
+  .logisticTruckFooter .logisticFooterInner .logisticFooterRow .lfColumn .logisticFooterHead h4 {
+    font-size: 18px;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent h1 {
+    font-size: 100px;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent img {
+    margin-top: -65px;
+  }
+  .logisticTracPacket .logisticTracPacketInner {
+    padding: 20px;
+  }
+  .logisticTracPacket .logisticTracPacketInner .logisticTracPacketRow .logisticTrackPacketCol p {
+    font-size: 16px;
+  }
+  .logisticTrustedUsers .logisticTrustedUsersInner .nav {
+    gap: 12px;
+  }
+  .logisticTrackHeader .logisticTrackMobHeaderInner a.mobLogo img {
+    width: 180px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutImg.logisticTruckAboutImg1::after, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutImg.logisticTruckAboutImg2::before, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutImg.logisticTruckAboutImg1::before {
+    width: 120px;
+  }
+  .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutImg.logisticTruckAboutImg1, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutImg.logisticTruckAboutImg2 {
+    padding: 15px;
+  }
+  .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-content p, .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-content .trackingContentImg .trackingContent p, .logisticPricingPlans .logisticPricingPlansInner p, .logisticTruckGallery .logisticTruckGalleryInner .logisticTruckGalleryHead p, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogHead p, .logisticOurAgent .logisticOurAgentInner .logisticOurAgentRow .logisticOurAgentCard .logisticOurAgentCardHead .logisticOurAgentName span, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt p, .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesBox .logisticFeaturesInnerRow .logisticFeaturesBoxGroup .logisticFeaturesBox p, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogCardGroup .logisticTruckOurBlogCardItem .logisticTruckOurBlogCardImg .logisticCalner p, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogHead p, .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead p, .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesBox .logisticFeaturesInnerRow .logisticFeaturesBoxGroup .logisticFeaturesBodrBox p {
+    font-size: 14px;
+  }
+  .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-content .trackingContentImg .trackingContent h6, .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-content h5 {
+    font-size: 16px;
+  }
+  .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingSteps .trackingShipping .tracking-list .tracking-item .tracking-icon {
+    font-size: 14px;
+  }
+  .logisticTruckOurNewsletter .logisticTruckOurNewsletterInner {
+    padding: 15px;
+  }
+  .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogCardGroup .logisticTruckOurBlogCardItem .logisticTruckOurBlogCardTxt p a, .logisticOurAgent .logisticOurAgentInner .logisticOurAgentRow .logisticOurAgentCard .logisticOurAgentCardHead .logisticOurAgentName h5 a {
+    font-size: 16px;
+  }
+  .logisticTracPacket .logisticTracPacketInner .logisticTracPacketRow .logisticTrackPacketCol h2 {
+    font-size: 22px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesBox .logisticFeaturesInnerRow .logisticFeaturesBoxGroup .logisticFeaturesBodrBox {
+    padding: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .logisticTracPacket .logisticTracPacketInner .logisticTracPacketRow .logisticTrackPacketCol .logisticTrackPackerForm form input {
+    width: 100%;
+  }
+  .logisticTrackPackerForm .input-group {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 375px) {
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent h1 {
+    font-size: 74px;
+  }
+  .logisticTrackBanner .logisticTrackBannerInner .logisticTrackBannerContent img {
+    margin-top: -42px;
+  }
+  .logisticPricingPlans .logisticPricingPlansMask h2 {
+    font-size: 28px;
+  }
+  .logisticMoreThanFeatures .logisticMoreThanFeaturesInner .logisticMoreFeaturesHead h2, .logisticOurAgent .logisticOurAgentInner .logisticOurAgentHead h2, .logisticTruckAbout .logisticTruckAboutInner .logisticTruckAboutTxt h2, .logisticPricingPlans .logisticPricingPlansInner h2, .logisticShippingEasySteps .logisticShippingEasyStepsInner .logisticShippingEasyHead h2, .logisticTruckGallery .logisticTruckGalleryInner .logisticTruckGalleryHead h2, .logisticTruckOurBlog .logisticTruckOurBlogInner .logisticTruckOurBlogHead h2, .logisticTruckOurNewsletter .logisticTruckOurNewsletterInner .logisticTruckOurNewsletterRow .logisticTruckOurNewsletterCol .logisticTruckOurNewsletterHead h2 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1520px;
+  }
+}/*# sourceMappingURL=responsive.css.map */
