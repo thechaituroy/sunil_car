@@ -107,7 +107,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   font-family: "Varela Round", sans-serif;
-  background: linear-gradient(to right, #FF2189 0%, #43DCFF 100%);
+  background: linear-gradient(to right, #FFB86C 0%, #43DCFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 10px 30px;
@@ -125,7 +125,7 @@ p {
   inset: 0;
   border-radius: 50px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -175,7 +175,7 @@ p {
   }
 }
 .gradientbtn1 {
-  background-image: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background-image: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   border: 0;
   border-radius: 50px;
   font-size: 18px;
@@ -189,7 +189,7 @@ p {
 }
 .gradientbtn1:hover {
   color: #fff;
-  background-image: linear-gradient(80deg, #43DCFF 13.83%, #FF2189 70.07%);
+  background-image: linear-gradient(80deg, #43DCFF 13.83%, #FFB86C 70.07%);
   transition: all 0.4s ease;
 }
 
@@ -205,7 +205,7 @@ p {
   }
 }
 .gradientbtn1, .secondaryBtn, .primaryBtn {
-  background-image: linear-gradient(80deg, #FF2189 13.83%, #9194FB 70.07%);
+  background-image: linear-gradient(80deg, #FFB86C 13.83%, #FFB86C 70.07%);
   border: 0;
   border-radius: 50px;
   font-size: 18px;
@@ -220,7 +220,7 @@ p {
 
 .gradientbtn1:hover, .secondaryBtn:hover, .primaryBtn:hover {
   color: #fff;
-  background-image: linear-gradient(80deg, #9194FB 13.83%, #FF2189 70.07%);
+  background-image: linear-gradient(80deg, #FFB86C 13.83%, #FFB86C 70.07%);
   transition: all 0.6s ease;
 }
 
@@ -495,7 +495,7 @@ p {
   left: 50%;
   content: "";
   border-radius: 10px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   transform: translateX(-50%);
 }
 .logisticCommonHead .logisticFeaturesIcon {
@@ -518,7 +518,7 @@ p {
   left: 0;
   content: "";
   border-radius: 10px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
 }
 .logisticCommonHead p {
   color: #fff;
@@ -662,7 +662,7 @@ footer {
   content: "";
   border-radius: 50px;
   opacity: 0.05;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   position: absolute;
   top: 0;
   left: 0;
@@ -716,7 +716,7 @@ footer {
 }
 .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard a .logisticFeaturesCardInner.logisticBestCourier {
   border-radius: 50px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
 }
 .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard a .logisticFeaturesCardInner.logisticBestPrice {
   border-radius: 50px;
@@ -724,7 +724,7 @@ footer {
 }
 .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard a .logisticFeaturesCardInner.logisticFaster {
   border-radius: 50px;
-  background: linear-gradient(90deg, #FD6B6B 0.23%, #FE8783 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #FFB86C 99.64%);
 }
 .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard:hover a .logisticFeaturesCardInner {
   position: relative;
@@ -841,7 +841,7 @@ footer {
   inset: 0;
   border-radius: 30px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -885,7 +885,7 @@ footer {
   padding: 5px 0;
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsNav ul li a.active {
-  background: var(--Purplr, linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%));
+  background: var(--Purplr, linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -913,7 +913,7 @@ footer {
   margin-bottom: 0;
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticProgress .logisticProgressBar .logisticProgContant .logisticProgPercent span {
-  background: var(--Gradient, linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%));
+  background: var(--Gradient, linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -928,10 +928,10 @@ footer {
   background: linear-gradient(90deg, #FAB71E 0.23%, #FBDC94 99.64%);
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticProgress .logisticProgressBar .progress.progressCustomsProcessing .progress-bar {
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticProgress .logisticProgressBar .progress.progressCustomsClearance .progress-bar {
-  background: linear-gradient(90deg, #FD6B6B 0.23%, #FE8783 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #FE8783 99.64%);
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticDistances {
   border-radius: 30px;
@@ -1071,7 +1071,7 @@ footer {
   content: "";
   border-radius: 50px;
   opacity: 0.05;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   position: absolute;
   top: 0;
   left: 0;
@@ -1122,7 +1122,7 @@ footer {
   content: "";
   border-radius: 50px;
   opacity: 0.05;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   position: absolute;
   top: 0;
   left: 0;
@@ -1208,7 +1208,7 @@ footer {
   content: "";
   border-radius: 50px;
   opacity: 0.05;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   position: absolute;
   top: 0;
   left: 0;
@@ -1252,7 +1252,7 @@ footer {
 }
 .logisticOurTeam .logisticOurTeamInner .logisticOurTeamRow .logisticOurTeamCol .logisticTeamNam {
   border-radius: 20px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   box-shadow: 10px 10px 20px 0px rgba(17, 17, 17, 0.5);
   padding: 20px;
   width: 80%;
@@ -1303,7 +1303,7 @@ footer {
   position: absolute;
   border-radius: 50px 0px 0px 50px;
   opacity: 0.1;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   width: 100%;
   height: 100%;
   left: 0;
@@ -1549,7 +1549,7 @@ footer {
   position: absolute;
   border-radius: 50px;
   opacity: 0.1;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   width: 100%;
   height: 100%;
   left: 0;
@@ -1729,14 +1729,14 @@ footer {
   bottom: 0;
   border-radius: 50px;
   opacity: 0.05;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
 }
 .logisticLetJoin .logisticLetJoinInner:after {
   content: "";
   position: absolute;
   border-radius: 50px;
   opacity: 0.1;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   width: 100%;
   height: 100%;
   left: 0;
@@ -1788,7 +1788,7 @@ footer {
   font-size: 16px;
   font-weight: 400;
   border-radius: 50px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   box-shadow: 10px 10px 20px 0px rgba(17, 17, 17, 0.5);
   padding: 10px 50px;
   margin-right: 100px;
@@ -1892,7 +1892,7 @@ footer {
   margin-bottom: 20px;
 }
 .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent h1 span {
-  color: #9194FB;
+  color: #FFB86C;
 }
 .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent p {
   color: #fff;
@@ -1924,7 +1924,7 @@ footer {
   color: #9d9d9d;
 }
 .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent form .input-group button {
-  background-image: linear-gradient(80deg, #FF2189 13.83%, #9194FB 70.07%);
+  background-image: linear-gradient(80deg, #FFB86C 13.83%, #FFB86C 70.07%);
   animation: animatedgradient1 3s ease alternate infinite;
   background-size: 300% 300%;
   border: 0;
@@ -1932,7 +1932,7 @@ footer {
 }
 .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent form .input-group button:hover {
   color: #fff;
-  background-image: linear-gradient(80deg, #9194FB 13.83%, #FF2189 70.07%);
+  background-image: linear-gradient(80deg, #FFB86C 13.83%, #FFB86C 70.07%);
   transition: all 0.6s ease;
 }
 .logisticSideTwo .logisticSideTwoInner .logisticSideRow .logisticSideCol .logisticSideTwoContent .watchNow {
@@ -2057,7 +2057,7 @@ footer {
   left: 50%;
   content: "";
   border-radius: 10px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   transform: translateX(-50%);
 }
 .logisticCommonHead .logisticFeaturesIcon {
@@ -2080,7 +2080,7 @@ footer {
   left: 0;
   content: "";
   border-radius: 10px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
 }
 .logisticCommonHead p {
   color: #fff;
@@ -2136,7 +2136,7 @@ footer {
   margin-bottom: 20px;
 }
 .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent h1 span {
-  color: #9194FB;
+  color: #FFB86C;
 }
 .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent p {
   color: #fff;
@@ -2176,8 +2176,8 @@ footer {
   color: #9d9d9d;
 }
 .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent form .input-group button {
-  background-color: #9194FB;
-  border-color: #9194FB;
+  background-color: #FFB86C;
+  border-color: #FFB86C;
   color: #fff;
 }
 .logisticBannerShipInner .logisticSideTwoInner .logisticSideTwoContent .watchNow {
@@ -2289,7 +2289,7 @@ footer {
   content: "";
   border-radius: 50px;
   opacity: 0.05;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   position: absolute;
   top: 0;
   left: 0;
@@ -2343,7 +2343,7 @@ footer {
 }
 .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard a .logisticFeaturesCardInner.logisticBestCourier {
   border-radius: 50px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
 }
 .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard a .logisticFeaturesCardInner.logisticBestPrice {
   border-radius: 50px;
@@ -2351,7 +2351,7 @@ footer {
 }
 .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard a .logisticFeaturesCardInner.logisticFaster {
   border-radius: 50px;
-  background: linear-gradient(90deg, #FD6B6B 0.23%, #FE8783 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #FE8783 99.64%);
 }
 .logisticFeatures .logisticFeaturesInner .logisticFeaturesGroup .logisticFeaturesCardGroup .logisticFeaturesCard:hover a .logisticFeaturesCardInner {
   position: relative;
@@ -2468,7 +2468,7 @@ footer {
   inset: 0;
   border-radius: 30px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -2512,7 +2512,7 @@ footer {
   padding: 5px 0;
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsNav ul li a.active {
-  background: var(--Purplr, linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%));
+  background: var(--Purplr, linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2540,7 +2540,7 @@ footer {
   margin-bottom: 0;
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticProgress .logisticProgressBar .logisticProgContant .logisticProgPercent span {
-  background: var(--Gradient, linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%));
+  background: var(--Gradient, linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2555,10 +2555,10 @@ footer {
   background: linear-gradient(90deg, #FAB71E 0.23%, #FBDC94 99.64%);
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticProgress .logisticProgressBar .progress.progressCustomsProcessing .progress-bar {
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticAboutUs .logisticAboutUsContant .logisticProgress .logisticProgressBar .progress.progressCustomsClearance .progress-bar {
-  background: linear-gradient(90deg, #FD6B6B 0.23%, #FE8783 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #FE8783 99.64%);
 }
 .logisticAboutUs .logisticAboutUsInner .logisticAboutUsRow .logisticAboutUsCol .logisticDistances {
   border-radius: 30px;
@@ -2637,7 +2637,7 @@ footer {
   content: "";
   border-radius: 50px;
   opacity: 0.05;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   position: absolute;
   top: 0;
   left: 0;
@@ -2699,7 +2699,7 @@ footer {
 }
 .logisticTrackPacket .logisticTrackPacketInner .logisticTrackPacketFrm .logisticTrackPacketInput .input-group .input-group-text {
   border-radius: 30px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   border-color: #B2AEFF;
   padding: 10px 40px;
   transition: all 0.4s ease;
@@ -2753,7 +2753,7 @@ footer {
   content: "";
   border-radius: 50px;
   opacity: 0.05;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   position: absolute;
   top: 0;
   left: 0;
@@ -3200,7 +3200,7 @@ footer {
   position: absolute;
   border-radius: 50px 0px 0px 50px;
   opacity: 0.1;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   width: 100%;
   height: 100%;
   left: 0;
@@ -3432,7 +3432,7 @@ footer {
   position: absolute;
   border-radius: 50px;
   opacity: 0.1;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   width: 100%;
   height: 100%;
   left: 0;
@@ -3612,14 +3612,14 @@ footer {
   bottom: 0;
   border-radius: 50px;
   opacity: 0.05;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
 }
 .logisticLetJoin .logisticLetJoinInner:after {
   content: "";
   position: absolute;
   border-radius: 50px;
   opacity: 0.1;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   width: 100%;
   height: 100%;
   left: 0;
@@ -3905,7 +3905,7 @@ nav.logisticFullScreenOverlayMenu ul.menu li .submenu li a:after {
   width: 0;
   height: 1px;
   display: block;
-  background-image: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background-image: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   transition: all 0.6s ease;
 }
 nav.logisticFullScreenOverlayMenu ul.menu li .submenu li a:hover:after {
@@ -4161,7 +4161,7 @@ body.search-active section {
   height: 50px;
   border: double 1px transparent;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background-image: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   background-origin: border-box;
   background-clip: content-box, border-box;
   display: flex;
@@ -4392,7 +4392,7 @@ body.search-active section {
   inset: 0;
   border-radius: 50px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -4460,7 +4460,7 @@ body.search-active section {
   inset: 0;
   border-radius: 50px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -4519,7 +4519,7 @@ body.search-active section {
   inset: 0;
   border-radius: 6px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -4568,7 +4568,7 @@ body.search-active section {
   inset: 0;
   border-radius: 2px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -4650,7 +4650,7 @@ body.search-active section {
   font-weight: 400;
 }
 .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm .accountSignUp p a {
-  color: #9194FB;
+  color: #FFB86C;
 }
 .logisticLogin .logisticLoginInner .logisticLoginRow .logisticLoginCol .logisticLoginForm .logisticLoginFormImgGroup .logisticLoginFrmInner .loginFrm .accountSignUp p a:hover {
   text-decoration: underline;
@@ -4766,7 +4766,7 @@ body.search-active section {
 }
 .logisticError .logisticErrorInner .logisticErrorContent .btnErrorBtn {
   border-radius: 50px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   box-shadow: 10px 10px 20px 0px rgba(17, 17, 17, 0.1);
   color: #fff;
   font-family: "Varela Round", sans-serif;
@@ -4829,7 +4829,7 @@ body.search-active section {
   font-weight: 400;
 }
 .logisticInnerPageBanner .innerPageBannerInner .logisticBreadcrumb .breadcrumb li a {
-  color: #9194FB;
+  color: #FFB86C;
 }
 
 /*banner*/
@@ -4978,7 +4978,7 @@ body.search-active section {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #9194FB;
+  color: #FFB86C;
 }
 .logisticSolutionBusiness .logisticSolutionBusinessInner .logisticSolutionBusinessImgGroup .logisticYearsExperience .logisticYearsExperienceInner p {
   color: #fff;
@@ -5197,7 +5197,7 @@ body.search-active section {
 }
 .logisticBlogSingle .logisticBlogSingleGroup .logisticBlogSingleTags .logisticTagsList ul li a {
   border-radius: 50px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   box-shadow: 10px 10px 20px 0px rgba(17, 17, 17, 0.1);
   color: #fff;
   font-family: "Varela Round", sans-serif;
@@ -5217,7 +5217,7 @@ body.search-active section {
   height: 50px;
   border: double 1px transparent;
   border-radius: 50%;
-  background-image: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background-image: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   background-origin: border-box;
   background-clip: content-box, border-box;
   display: flex;
@@ -5348,7 +5348,7 @@ body.search-active section {
   inset: 0;
   border-radius: 6px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -5397,7 +5397,7 @@ body.search-active section {
   inset: 0;
   border-radius: 2px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -5426,7 +5426,7 @@ body.search-active section {
 .logisticLeaveMessage .logisticLeaveMessageInner .logisticLeaveMessageForm .leaveMessageFrm .logisticLoginBtn .btn {
   width: 100%;
   border-radius: 6px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   color: #fff;
   font-family: "Varela Round", sans-serif;
   font-size: 16px;
@@ -5479,7 +5479,7 @@ body.search-active section {
   font-weight: 400;
 }
 .logisticLeaveMessage .logisticLeaveMessageInner .logisticLeaveMessageForm .leaveMessageFrm .accountSignUp p a {
-  color: #9194FB;
+  color: #FFB86C;
 }
 .logisticLeaveMessage .logisticLeaveMessageInner .logisticLeaveMessageForm .leaveMessageFrm .accountSignUp p a:hover {
   text-decoration: underline;
@@ -5609,7 +5609,7 @@ body.search-active section {
   font-weight: 400;
   color: #fff;
   padding: 6px 25px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
 }
 
 .logisticPagination .pagination {
@@ -5697,7 +5697,7 @@ body.search-active section {
   width: 100px;
   height: 100px;
   border-radius: 25px;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5736,7 +5736,7 @@ body.search-active section {
   margin: 0 auto;
 }
 .logisticProductServices .logisticProductServicesInner .logisticProductServiceCardGroup .logisticProductServicesCard:hover:after {
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   transform: scale(1.1);
 }
 .logisticProductServices .logisticProductServicesInner .logisticProductServiceCardGroup .logisticProductServicesCard:hover .logisticProductServicesIcon {
@@ -5774,7 +5774,7 @@ body.search-active section {
 .logisticOurProcess .logisticOurProcessInner .logisticOurProcessGroup .logisticOurProcessSlider .owlCarouselOurProcess .logisticOurProcessCard:after {
   content: "";
   opacity: 0.05;
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -5838,7 +5838,7 @@ body.search-active section {
   background: #FFF;
 }
 .owlCarouselBar .owlCarouselDots .owl-dot.active {
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
   opacity: 1;
 }
 
@@ -6186,10 +6186,10 @@ body.search-active section {
   margin: 0;
 }
 .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentSocial li a.whatsapp:hover svg path, .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentSocial li a.facebook:hover svg path, .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentSocial li a.twitter:hover svg path {
-  fill: #9194FB;
+  fill: #FFB86C;
 }
 .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticAgentSocial li a.instagram:hover svg path {
-  stroke: #9194FB;
+  stroke: #FFB86C;
 }
 .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticProgress {
   margin-top: 25px;
@@ -6224,10 +6224,10 @@ body.search-active section {
   background: linear-gradient(90deg, #FAB71E 0.23%, #FBDC94 99.64%);
 }
 .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticProgress .logisticProgressBar .progress.progressCustomsProcessing .progress-bar {
-  background: linear-gradient(90deg, #9194FB 0.23%, #B2AEFF 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #B2AEFF 99.64%);
 }
 .logisticAgentSingle .logisticAgentSingleInner .logisticAgentSingleContent .logisticProgress .logisticProgressBar .progress.progressCustomsClearance .progress-bar {
-  background: linear-gradient(90deg, #FD6B6B 0.23%, #FE8783 99.64%);
+  background: linear-gradient(90deg, #FFB86C 0.23%, #FE8783 99.64%);
 }
 
 /*agent single*/
@@ -6266,7 +6266,7 @@ body.search-active section {
   inset: 0;
   border-radius: 30px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -6404,7 +6404,7 @@ body.search-active section {
   inset: 0;
   border-radius: 30px;
   padding: 1px;
-  background: linear-gradient(80deg, #FF2189 13.83%, #43DCFF 70.07%);
+  background: linear-gradient(80deg, #FFB86C 13.83%, #43DCFF 70.07%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
