@@ -1,15 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
-/*-----------------------------------------------------------------------------------
-
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 /************ TABLE OF CONTENTS ***************
 
   01. font-face
@@ -458,12 +447,7 @@ p {
   animation: speedmarker-R-animation-keyframes 1.9s linear 0s infinite normal forwards running;
 }
 
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 /************ TABLE OF CONTENTS ***************
 
   01. common heading
@@ -2019,31 +2003,7 @@ footer {
   animation-name: slideOutLeft; /* Change to the desired animation, e.g., slideOutLeft */
 }
 
-/*-----------------------------------------------------------------------------------
 
-  Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
-/************ TABLE OF CONTENTS ***************
-
-  01. common heading
-  02. Banner
-  03. common css
-  04. Features
-  05. Delivering Possibilities
-  06. Logistics Capabilities
-  07. About Us
-  08. Catgeries
-  09. Track Packet
-  10. Our Team
-  11. Logistic Catgeries
-  12. Our Testimonial
-  13. Let's Join with Us
-  14. Tooltip
-  15. home banner
-
-**********************************************/
 .logisticCommonHead.logisticCommonHeadCenter {
   text-align: center;
   width: 800px;
@@ -3744,12 +3704,6 @@ footer {
   /* Change to the desired animation, e.g., slideOutLeft */
 }
 
-/*-----------------------------------------------------------------------------------
-
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 .logisticHeader {
   background-color: transparent;
   background-position: center;
@@ -4098,12 +4052,7 @@ body.search-active section {
     transform: translateY(0);
   }
 }
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 .logisticFooter {
   position: relative;
   overflow: hidden;
@@ -4242,13 +4191,6 @@ body.search-active section {
   color: #9f9ffd;
 }
 
-/*-----------------------------------------------------------------------------------
-
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-
--------------------------------------------------------------------------------------*/
 .errorMain1 {
   width: 100%;
   height: 100vh;
@@ -4684,12 +4626,7 @@ body.search-active section {
   width: 150px;
 }
 
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 .logisticError {
   height: calc(100vh - 90px);
   overflow: hidden;
@@ -4776,19 +4713,7 @@ body.search-active section {
   width: 200px;
 }
 
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
-/************ TABLE OF CONTENTS ***************
-
-  01. banner
-  02. solution business
-
-**********************************************/
-/*banner*/
 .logisticInnerPageBanner {
   background-image: url(../images/banner.png);
   background-position: center;
@@ -4999,13 +4924,7 @@ body.search-active section {
   right: 0px;
 }
 
-/*solution business*/
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 .logisticBlogGrid {
   padding: 80px 0 40px;
 }
@@ -5638,22 +5557,6 @@ body.search-active section {
   background: #7373ed;
 }
 
-/*-----------------------------------------------------------------------------------
-
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
-/************ TABLE OF CONTENTS ***************
-
-  01. our product services
-  02. our process
-  03. our process slider
-  04. product services
-  05. service center
-  06. faq
-
-**********************************************/
 /*our product services*/
 .logisticProductServices {
   padding: 80px 0;
@@ -5927,12 +5830,7 @@ body.search-active section {
 }
 
 /*faq*/
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 /************ TABLE OF CONTENTS ***************
 
   01. gallery
@@ -6099,12 +5997,7 @@ body.search-active section {
     opacity: 1;
   }
 }
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 /************ TABLE OF CONTENTS ***************
 
   01. our agent
@@ -6116,12 +6009,7 @@ body.search-active section {
 }
 
 /*our agent*/
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
- Version: 1.0.0
-*/
 /************ TABLE OF CONTENTS ***************
 
   01. agent single
@@ -6237,12 +6125,7 @@ body.search-active section {
 }
 
 /*personal experience*/
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 /************ TABLE OF CONTENTS ***************
 
   01. contact us
@@ -6298,12 +6181,6 @@ body.search-active section {
 }
 
 /*map*/
-/*-----------------------------------------------------------------------------------
-
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 /************ TABLE OF CONTENTS ***************
 
   01. faq
@@ -6436,12 +6313,7 @@ body.search-active section {
 }
 
 /*map*/
-/*-----------------------------------------------------------------------------------
 
-   Template Name: foxhub
-  Author: Webstrot
-  Version: 1.0.0
-*/
 /************ TABLE OF CONTENTS ***************
 
   01. header
