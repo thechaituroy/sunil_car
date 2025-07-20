@@ -334,13 +334,116 @@
          </div>
       </section>
       <!--banner end-->
+      <!-- counts -->
+       <section style="background-color: #ffffff; color: rgb(0, 0, 0); padding: 60px 20px; text-align: center;">
+  <p style="margin-bottom: 40px;">GSTIN : 36OCVPS2225C1Z4</p>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; max-width: 1000px; margin: 0 auto;">
+    
+    <div style="width: 200px;">
+      <div class="stat-number" data-target="10" style="font-size: 36px; font-weight: bold; position: relative; margin-bottom: 10px;">
+        0
+        <span style="display: block; width: 30px; height: 2px; background-color: orange; margin: 6px auto 0;"></span>
+      </div>
+      <div style="font-size: 16px; font-weight: 500;">Years of Experience</div>
+    </div>
+
+    <div style="width: 200px;">
+      <div class="stat-number" data-target="8000" style="font-size: 36px; font-weight: bold; position: relative; margin-bottom: 10px;">
+        0
+        <span style="display: block; width: 30px; height: 2px; background-color: orange; margin: 6px auto 0;"></span>
+      </div>
+      <div style="font-size: 16px; font-weight: 500;">Shiftings Done</div>
+    </div>
+
+    <div style="width: 200px;">
+      <div class="stat-number" data-target="8" style="font-size: 36px; font-weight: bold; position: relative; margin-bottom: 10px;">
+        0
+        <span style="display: block; width: 30px; height: 2px; background-color: orange; margin: 6px auto 0;"></span>
+      </div>
+      <div style="font-size: 16px; font-weight: 500;">vehicles</div>
+    </div>
+
+    <div style="width: 200px;">
+      <div class="stat-number" data-target="40" style="font-size: 36px; font-weight: bold; position: relative; margin-bottom: 10px;">
+        0
+        <span style="display: block; width: 30px; height: 2px; background-color: orange; margin: 6px auto 0;"></span>
+      </div>
+      <div style="font-size: 16px; font-weight: 500;">Workforce</div>
+    </div>
+
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const counters = document.querySelectorAll('.stat-number');
+      counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        let current = 0;
+        const speed = Math.max(10, 2000 / target);
+
+        const update = () => {
+          if (current < target) {
+            current += Math.ceil(target / 100);
+            if (current > target) current = target;
+            counter.childNodes[0].nodeValue = current;
+            setTimeout(update, speed);
+          }
+        };
+        update();
+      });
+    });
+  </script>
+</section>
+
+       <!-- counts -->
+      <!--Let's Join with Us Start-->
+      <section class="w-100 clearfix logisticTruckOurNewsletter" id="logisticTruckOurNewsletter">
+         <div class="container">
+            <div class="logisticTruckOurNewsletterInner">
+               <div class="logisticTruckOurNewsletterRow">
+                  <div class="logisticTruckOurNewsletterCol logisticTruckOurNewsletterCol1">
+                     <div class="logisticTruckOurNewsletterHead">
+                        <h2>Book Your Home Shifting</h2>
+                        <p>Schedule your move today and relax—we handle everything professionally.</p>
+                     </div>
+                  </div>
+                  <div class="logisticTruckOurNewsletterCol logisticTruckOurNewsletterCol2">
+                     <div class="logisticTruckOurNewsletterBtn">
+                        <form action="contact-us.html">
+                           <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Your Email">
+                              <button type="submit" class="btn">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                    fill="none">
+                                    <path
+                                       d="M18 3V15C18 16.65 16.65 18 15 18H9C7.35 18 6 16.65 6 15V12.75C6 12.3 6.3 12 6.75 12C7.2 12 7.5 12.3 7.5 12.75V15C7.5 15.825 8.175 16.5 9 16.5H15C15.825 16.5 16.5 15.825 16.5 15V3C16.5 2.175 15.825 1.5 15 1.5H9C8.175 1.5 7.5 2.175 7.5 3V5.25C7.5 5.7 7.2 6 6.75 6C6.3 6 6 5.7 6 5.25V3C6 1.35 7.35 0 9 0H15C16.65 0 18 1.35 18 3ZM8.475 6.225C8.175 6.525 8.175 6.975 8.475 7.275L9.45 8.25H0.75C0.3 8.25 0 8.55 0 9C0 9.45 0.3 9.75 0.75 9.75H9.45L8.475 10.725C8.175 11.025 8.175 11.475 8.475 11.775C8.775 12.075 9.225 12.075 9.525 11.775L11.775 9.525C12.075 9.225 12.075 8.775 11.775 8.475L9.525 6.225C9.225 5.925 8.775 5.925 8.475 6.225Z"
+                                       fill="url(#paint0_linear_3129_4945)" />
+                                    <defs>
+                                       <linearGradient id="paint0_linear_3129_4945" x1="18" y1="8.97282" x2="0.112501"
+                                          y2="8.97282" gradientUnits="userSpaceOnUse">
+                                          <stop offset="100%" stop-color="#F05A00" />
+                                          <stop offset="1" stop-color="#CB2D06" />
+                                       </linearGradient>
+                                    </defs>
+                                 </svg>
+                                 Book an Appointment
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Let's Join with Us End-->
 
       <!--Trusted by 50+ Users start-->
       <section class="w-100 clearfix logisticTrustedUsers" id="logisticTrustedUsers">
          <div class="container">
             <div class="logisticTrustedUsersInner">
                <span>Trusted by 100's Users</span>
-               <h2 class="d-none">Trusted by 100's Users</h2>
+               <h2 class="d-none">Trusted by 100's of Users</h2>
  <h2 class="d-none">Trusted by 50+ Users</h2>
                <ul class="nav">
                   <li class="nav-item">
@@ -404,7 +507,7 @@
    </div>
 
    <div>
-      <a href="tel:+919876543210" class="form-control"
+      <a href="tel:+917674907781" class="form-control"
          style="display: block; padding: 15px; background-color: #ffffff; color: #000000; text-align: center; text-decoration: none; border-radius: 5px; border: 1px solid #ccc;">
          Call Us
       </a>
@@ -531,7 +634,7 @@
                            <div class="logisticOurAgentCardHead">
                               <div class="logisticOurAgentName">
                                  <h5><a href="https://www.google.com/maps/place/World+Cargo+Packers+And+Movers+Bangalore/@13.0224371,77.535472,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3dd23f5f9d2b:0xbbc401d615a96827!8m2!3d13.0224371!4d77.535472!16s%2Fg%2F11wj7qy0zk?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">Bangalore</a></h5>
-                                 <span>Executive Manager Sunil</span>
+                                 <span>Executive Manager Vikas Kumar</span>
                               </div>
                               <div class="logisticOurAgentProf">
                                  <a href="https://www.google.com/maps/place/World+Cargo+Packers+And+Movers+Bangalore/@13.0224371,77.535472,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae3dd23f5f9d2b:0xbbc401d615a96827!8m2!3d13.0224371!4d77.535472!16s%2Fg%2F11wj7qy0zk?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">
@@ -557,7 +660,7 @@
                            <div class="logisticOurAgentCardHead">
                               <div class="logisticOurAgentName">
                                  <h5><a href="https://www.google.com/maps/place/World+Trade+Center+Chennai/@12.961793,80.2447247,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525d67c256386d:0xb3f56b3c34805aac!8m2!3d12.961793!4d80.2447247!16s%2Fg%2F11cpj10r3j?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">Chennai</a></h5>
-                                 <span>Executive Manager Sunil</span>
+                                 <span>Executive Manager ratnesh</span>
                               </div>
                               <div class="logisticOurAgentProf">
                                  <a href="https://www.google.com/maps/place/World+Trade+Center+Chennai/@12.961793,80.2447247,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525d67c256386d:0xb3f56b3c34805aac!8m2!3d12.961793!4d80.2447247!16s%2Fg%2F11cpj10r3j?entry=ttu&g_ep=EgoyMDI1MDYyMy4yIKXMDSoASAFQAw%3D%3D">
@@ -583,7 +686,7 @@
                            <div class="logisticOurAgentCardHead">
                               <div class="logisticOurAgentName">
                                  <h5><a href="home-track.html">Andhra Pradesh</a></h5>
-                                 <span>Executive Manager Sunil</span>
+                                 <span>Executive Manager upcoming</span>
                               </div>
                               <div class="logisticOurAgentProf">
                                  <a href="home-track.html">
@@ -1057,47 +1160,7 @@
       </section>
       <!-- Our Blog End-->
 
-      <!--Let's Join with Us Start-->
-      <section class="w-100 clearfix logisticTruckOurNewsletter" id="logisticTruckOurNewsletter">
-         <div class="container">
-            <div class="logisticTruckOurNewsletterInner">
-               <div class="logisticTruckOurNewsletterRow">
-                  <div class="logisticTruckOurNewsletterCol logisticTruckOurNewsletterCol1">
-                     <div class="logisticTruckOurNewsletterHead">
-                        <h2>Book Your Home Shifting</h2>
-                        <p>Schedule your move today and relax—we handle everything professionally.</p>
-                     </div>
-                  </div>
-                  <div class="logisticTruckOurNewsletterCol logisticTruckOurNewsletterCol2">
-                     <div class="logisticTruckOurNewsletterBtn">
-                        <form>
-                           <div class="input-group">
-                              <input type="text" class="form-control" placeholder="Your Email">
-                              <button type="submit" class="btn">
-                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
-                                    fill="none">
-                                    <path
-                                       d="M18 3V15C18 16.65 16.65 18 15 18H9C7.35 18 6 16.65 6 15V12.75C6 12.3 6.3 12 6.75 12C7.2 12 7.5 12.3 7.5 12.75V15C7.5 15.825 8.175 16.5 9 16.5H15C15.825 16.5 16.5 15.825 16.5 15V3C16.5 2.175 15.825 1.5 15 1.5H9C8.175 1.5 7.5 2.175 7.5 3V5.25C7.5 5.7 7.2 6 6.75 6C6.3 6 6 5.7 6 5.25V3C6 1.35 7.35 0 9 0H15C16.65 0 18 1.35 18 3ZM8.475 6.225C8.175 6.525 8.175 6.975 8.475 7.275L9.45 8.25H0.75C0.3 8.25 0 8.55 0 9C0 9.45 0.3 9.75 0.75 9.75H9.45L8.475 10.725C8.175 11.025 8.175 11.475 8.475 11.775C8.775 12.075 9.225 12.075 9.525 11.775L11.775 9.525C12.075 9.225 12.075 8.775 11.775 8.475L9.525 6.225C9.225 5.925 8.775 5.925 8.475 6.225Z"
-                                       fill="url(#paint0_linear_3129_4945)" />
-                                    <defs>
-                                       <linearGradient id="paint0_linear_3129_4945" x1="18" y1="8.97282" x2="0.112501"
-                                          y2="8.97282" gradientUnits="userSpaceOnUse">
-                                          <stop offset="100%" stop-color="#F05A00" />
-                                          <stop offset="1" stop-color="#CB2D06" />
-                                       </linearGradient>
-                                    </defs>
-                                 </svg>
-                                 Book an Appointment
-                              </button>
-                           </div>
-                        </form>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!--Let's Join with Us End-->
+      
 
       <!--Logistic Footer Section Start-->
       <footer class="w-100 clearfix logisticTruckFooter" id="logisticFooter">
@@ -1193,7 +1256,7 @@
                            <div class="logisticFooterLink">
                               <ul class="nav flex-column contactUs">
                                  <li class="nav-item">
-                                    <a class="nav-link" href="tel:+917396004627">
+                                    <a class="nav-link" href="tel:+917674907781">
                                        <img src="images/icons/icon4.png" alt="icon" class="img-fluid">
                                        <span>+91 7396004627</span>
                                     </a>
@@ -1207,7 +1270,7 @@
                                  <li class="nav-item">
                                     <a class="nav-link" href="javascript:void(0);">
                                        <img src="images/icons/icon6.png" alt="icon" class="img-fluid">
-                                       <span>First Floor, B-111 14 DUTTL, 5th Main Rd, Narasimha Layout, Yeswanthpur, Bengaluru, Karnataka 560022</span>
+                                       <span>8-7-43/3/2, Road No.9, Rajarajeswari Nagar, Old Bowenpally, Secunderabad, Telangana- 500011</span>
                                     </a>
                                  </li>
                               </ul>
@@ -1216,9 +1279,6 @@
                      </div>
                   </div>
                </div>
-            </div>
-            <div class="logisticFooterCopyright">
-               <p class="mb-0"> © 2025-26 <a href="javascript:void(0);">MyHomeShifting</a><p>
             </div>
          </div>
       </footer>
